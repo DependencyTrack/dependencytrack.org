@@ -26,7 +26,7 @@
     </head>
     <body class="singlePage" id="page-top" data-spy="scroll" data-target=".navbar">
 
-        <a class="github-fork-ribbon" href="https://github.com/stevespringett/dependency-track" data-ribbon="Fork me on GitHub">Fork me on GitHub</a>
+        <a class="github-fork-ribbon" href="https://github.com/stevespringett/dependency-track/fork" data-ribbon="Fork me on GitHub">Fork me on GitHub</a>
 
         <header id="home" class="header-section">
             <nav class="navbar navbar-inverse hidden-sm hidden-xs">
@@ -41,7 +41,6 @@
                             <li><a class="page-scroll" href="#screenshots">Screenshots</a></li>
                             <li><a class="page-scroll" href="#features">Features</a></li>
                             <li><a class="page-scroll" href="#download">Download</a></li>
-                            <li><a class="page-scroll" href="https://twitter.com/DependencyTrack">Twitter <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                             <li><a class="page-scroll" href="https://www.owasp.org/index.php/OWASP_Dependency_Track_Project"><img src="assets/images/logo-owasp-small.svg"></a></li>
                         </ul>
                     </div>
@@ -203,26 +202,23 @@
                         -->
                     </div>
                 </div>
+                <div class="col-md-6">
+                    <div class="wrapper-content text-center">
+                        <span class="small">Connect with the community</span><br/><br/>
+                        <a href="https://github.com/stevespringett/dependency-track"><i class="fa fa-github social-icon" aria-hidden="true" title="GitHub"></i></a>
+                        <a href="https://twitter.com/dependencytrack"><i class="fa fa-twitter social-icon" aria-hidden="true" title="Twitter"></i></a>
+                        <a href="https://owasp.slack.com/messages/proj-dependency-track"><i class="fa fa-slack social-icon" aria-hidden="true" title="Slack"></i></a>
+                        <a href="https://gitter.im/dependency-track/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"><i class="fa fa-comments social-icon" aria-hidden="true" title="Gitter"></i></a>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <footer id="social" class="footer-section">
-            <div class="border">
-                <div class="container">
-                    <hr>
-                </div>
-            </div>
+        <footer class="footer-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="footer-wrapper">
-                            <a href="https://www.owasp.org/index.php/OWASP_Dependency_Track_Project">
-                                <img src="assets/images/logo-owasp.svg">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <p class="text-right">&copy; Copyright 2013-<?php echo date("Y"); ?> Steve Springett</p>
+                    <div class="col-md-12">
+                        <p class="text-center">&copy; Copyright 2013-<?php echo date("Y"); ?> Steve Springett</p>
                     </div>
                 </div>
             </div>
@@ -238,7 +234,6 @@
                 <li><a class="page-scroll" href="#screenshots">Screenshots</a></li>
                 <li><a class="page-scroll" href="#features">Features</a></li>
                 <li><a class="page-scroll" href="#download">Download</a></li>
-                <li><a class="page-scroll" href="https://twitter.com/dependencytrack">Twitter <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                 <li><a class="page-scroll" href="https://www.owasp.org/index.php/OWASP_Dependency_Track_Project"><img src="assets/images/logo-owasp-small.svg"></a></li>
             </ul>
         </div>
