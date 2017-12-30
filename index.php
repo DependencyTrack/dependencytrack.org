@@ -203,8 +203,8 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="wrapper-content text-center">
-                        <span class="small">Connect with the community</span><br/><br/>
+                    <div class="wrapper-content text-right">
+                        <span class="small">Connect with the developers &amp; community:</span><br/><br/>
                         <a href="https://github.com/stevespringett/dependency-track"><i class="fa fa-github social-icon" aria-hidden="true" title="GitHub"></i></a>
                         <a href="https://twitter.com/dependencytrack"><i class="fa fa-twitter social-icon" aria-hidden="true" title="Twitter"></i></a>
                         <a href="https://owasp.slack.com/messages/proj-dependency-track"><i class="fa fa-slack social-icon" aria-hidden="true" title="Slack"></i></a>
