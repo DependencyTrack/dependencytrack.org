@@ -207,6 +207,7 @@
                         <span class="small">Connect with the developers &amp; community:</span><br/><br/>
                         <a href="https://github.com/stevespringett/dependency-track"><i class="fa fa-github social-icon" aria-hidden="true" title="GitHub"></i></a>
                         <a href="https://twitter.com/dependencytrack"><i class="fa fa-twitter social-icon" aria-hidden="true" title="Twitter"></i></a>
+                        <a href="https://www.youtube.com/channel/UC8xdttysl3gNAQYvk1J9Efg"><i class="fa fa-youtube-play social-icon" aria-hidden="true" title="YouTube"></i></a>
                         <a href="https://owasp.slack.com/messages/proj-dependency-track"><i class="fa fa-slack social-icon" aria-hidden="true" title="Slack"></i></a>
                         <a href="https://gitter.im/dependency-track/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"><i class="fa fa-comments social-icon" aria-hidden="true" title="Gitter"></i></a>
                     </div>
