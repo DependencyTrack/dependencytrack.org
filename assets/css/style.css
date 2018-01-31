@@ -1223,6 +1223,30 @@ textarea, select {
   margin:10px;
 }
 
+.vertically-centered {
+  vertical-align: middle;
+}
+
+.download-icon {
+  background: transparent;
+  color: #ffffff;
+  font-size: 60px;
+  margin:10px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.docker-command {
+  font-family: monospace;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.download-option {
+  color: #ffffff;
+  font-size: 18px;
+}
+
 .social-icon:hover {
   background-color: #ffffff;
   color: rgba(36, 39, 51, 0.92);

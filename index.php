@@ -17,6 +17,7 @@
         <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
         <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/fontcustom.css">
         <link rel="stylesheet" type="text/css" href="assets/owl-carrosel/owl.carousel.min.css">
         <link rel="stylesheet" type="text/css" href="assets/slick-slider/slick.css">
         <link rel="stylesheet" type="text/css" href="assets/slick-slider/slick-theme.css">
@@ -191,15 +192,15 @@
             <div class="container">
                 <div class="col-md-6">
                     <div class="wrapper-content">
-                        <span class="small">Dependency-Track is free and Apache 2.0 licensed</span>
-                        <h3>Direct downloads will be available when v3.0 Beta 1 is available.</h3>
-                        <!--
-                        <div class="app-logo">
-                            <span class="caption"><a href="#"><img src="assets/images/download-docker.png" alt=""></a></span>
-                            <span class="caption"><a href="#"><img src="assets/images/download-standalone-war.png" alt=""></a></span>
-                            <span class="caption"><a href="#"><img src="assets/images/download-war.png" alt=""></a></span>
+                        <span class="small">Dependency-Track is free and Apache 2.0 licensed</span><br/><br/>
+                        <div>
+                            <span class="caption vertically-centered"><i class="fa fa-docker download-icon" aria-hidden="true" title="Docker"></i></span>
+                            <span class="docker-command vertically-centered">docker pull owasp/dependency-track</span>
                         </div>
-                        -->
+                        <div>
+                            <span class="caption vertically-centered"><i class="fa fa-download download-icon" aria-hidden="true" title="Download"></i></span>
+                            <span class="download-option vertically-centered">Java WARs available on  <a href="https://github.com/stevespringett/dependency-track/releases">GitHub</a></span>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
