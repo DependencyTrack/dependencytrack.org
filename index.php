@@ -57,13 +57,17 @@
                 <div class="row">
                     <div class="col-md-5 col-sm-9">
                         <div class="wrapper-content">
-                            <span class="small-text"><span class="color-text">Identify </span> Open Source Risk</span>
+                            <span class="small-text"><span class="color-text">Reduce </span> Open Source Risk</span>
                             <!--
                             <span class="small-text"><span class="color-text">Accelerated </span> Risk Intelligence</span>
                             -->
-                            <h3>DevOps-Enabled Component Analysis</h3>
+                            <h3>DevOps-Accelerated Component Analysis</h3>
                             <a href="#download">
-                            <button class="btn btn-default">Download <i class="fa fa-download" aria-hidden="true"></i></button>
+                                <button class="btn btn-default">Download <i class="fa fa-download" aria-hidden="true"></i></button>
+                            </a>
+                            <span class="spacer"></span>
+                            <a href="https://docs.dependencytrack.org/">
+                                <button class="btn btn-default">Documention <i class="fa fa-book" aria-hidden="true"></i></button>
                             </a>
                         </div>
                     </div>

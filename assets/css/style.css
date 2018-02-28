@@ -437,7 +437,7 @@ textarea, select {
       color: #FFFFFF;
       border: 0;
       border-radius: 25px;
-      padding: 11px 37px;
+      padding: 9px 28px;
       margin-top: 15px;
       background: #ec1346;
       /* Old browsers */
@@ -455,6 +455,9 @@ textarea, select {
       -ms-transition: 0.5s;
       -o-transition: 0.5s;
       transition: 0.5s; }
+    .top-section .wrapper-content .spacer {
+      margin-right: 10px;
+    }
       .top-section .wrapper-content .btn i {
         font-size: 20px;
         margin-left: 10px; }
