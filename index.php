@@ -67,7 +67,7 @@
                             </a>
                             <span class="spacer"></span>
                             <a href="https://docs.dependencytrack.org/">
-                                <button class="btn btn-default">Documention <i class="fa fa-book" aria-hidden="true"></i></button>
+                                <button class="btn btn-default">Documentation <i class="fa fa-book" aria-hidden="true"></i></button>
                             </a>
                         </div>
                     </div>
