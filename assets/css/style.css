@@ -1283,3 +1283,9 @@ textarea, select {
   color: #ffffff;
   border-color: #ee2836;
 }
+
+@media (max-width: 1340px) {
+  .github-fork-ribbon {
+    display: none;
+  }
+}
