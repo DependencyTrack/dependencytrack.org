@@ -58,9 +58,6 @@
                     <div class="col-md-5 col-sm-9">
                         <div class="wrapper-content">
                             <span class="small-text"><span class="color-text">Reduce </span> Open Source Risk</span>
-                            <!--
-                            <span class="small-text"><span class="color-text">Accelerated </span> Risk Intelligence</span>
-                            -->
                             <h3>DevOps-Accelerated Component Analysis</h3>
                             <a href="#download">
                                 <button class="btn btn-default">Download <i class="fa fa-download" aria-hidden="true"></i></button>
@@ -104,11 +101,11 @@
                     </div>
                     <div class="col-md-3 col-md-offset-1 col-sm-5">
                         <div  class="right-bar">
-                            <h3>We developed different versions of dashboard</h3>
+                            <h3>Discover how third-party components can introduce risk</h3>
                             <div id="lightBox" class="v-text">
-                                <a href="http://youtu.be/qP68aVNg6RE" data-poptrox="youtube,800x480"><i class="fa fa-play" aria-hidden="true"></i> Watch how it works</a>
+                                <a href="http://youtu.be/zlruKS4VsWQ" data-poptrox="youtube,800x480"><i class="fa fa-play" aria-hidden="true"></i> Watch how it works</a>
                             </div>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, </p>
+                            <p>Continuous analysis of third-party and open source components provides greater visibility on inherited risk.</p>
                         </div>
                     </div>
                 </div>
