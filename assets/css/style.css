@@ -1108,7 +1108,7 @@ textarea, select {
 .footer-section {
   position: relative;
   background: #FFFFFF;
-  padding: 80px 0; }
+  padding: 60px 0; }
   @media only screen and (max-width: 767px) {
     .footer-section {
       padding: 50px 0; } }
