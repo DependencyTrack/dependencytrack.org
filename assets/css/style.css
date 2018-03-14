@@ -1063,6 +1063,17 @@ textarea, select {
             margin-bottom: 5px; } }
 
 /* =========================================================
+        social-icons STYLE
+============================================================ */
+.download-section .social {
+  padding: 50px;
+  position: relative;
+  background-color: rgba(36, 39, 51, 0.94);
+  color: #ffffff;
+  font-size: 110%;
+}
+
+/* =========================================================
         Screen-Section STYLE
 ============================================================ */
 .screen-section {
@@ -1233,7 +1244,7 @@ textarea, select {
 .download-icon {
   background: transparent;
   color: #ffffff;
-  font-size: 60px;
+  font-size: 50px;
   margin:10px;
   text-align: left;
   vertical-align: middle;
@@ -1245,9 +1256,12 @@ textarea, select {
   font-size: 18px;
 }
 
-.download-option {
+.download-option a {
   color: #ffffff;
-  font-size: 18px;
+}
+
+.download-option a:hover {
+  color: #ff0000;
 }
 
 .social-icon:hover {
