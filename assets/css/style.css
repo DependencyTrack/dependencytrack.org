@@ -744,10 +744,8 @@ textarea, select {
     .cta-section-four .cta-container .cta-wrapper h3 {
       font-size: 24px;
       margin: 15px 0; }
-      .cta-section-four .cta-container .cta-wrapper h3 a {
+      .cta-section-four .cta-container .cta-wrapper h3 .feature {
         color: #4d4d4e; }
-        .cta-section-four .cta-container .cta-wrapper h3 a:hover {
-          color: #ee2836; }
       @media only screen and (max-width: 767px) {
         .cta-section-four .cta-container .cta-wrapper h3 {
           font-size: 20px;

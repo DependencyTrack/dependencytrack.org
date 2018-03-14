@@ -142,19 +142,19 @@
                     <div class="row first-row">
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
-                                <h3><i class="fas fa-chart-bar" aria-hidden="true"></i> <a href="#">Dashboard</a></h3>
+                                <h3><i class="fas fa-chart-bar" aria-hidden="true"></i> <span class="feature">Dashboard</span></h3>
                                 <p>Provides high-level metrics and trends on the portfolio and projects that are impacting an organizations risks</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
-                                <h3><i class="fas fa-cogs" aria-hidden="true"></i> <a href="#">Continuous Delivery</a></h3>
+                                <h3><i class="fas fa-cogs" aria-hidden="true"></i> <span class="feature">Continuous Delivery</span></h3>
                                 <p>Excels in rapidly changing CI/CD environments by encouraging ingestion and analysis of continuously updated components</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
-                                <h3><i class="fas fa-crosshairs" aria-hidden="true"></i> <a href="#">Rapid Response</a></h3>
+                                <h3><i class="fas fa-crosshairs" aria-hidden="true"></i> <span class="feature">Rapid Response</span></h3>
                                 <p>Identifies vulnerabilities in all projects and applications which are affected from the use of vulnerable components</p>
                             </div>
                         </div>
@@ -162,19 +162,19 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
-                                <h3><i class="fas fa-th" aria-hidden="true"></i> <a href="#">Supply Chain Risk</a></h3>
+                                <h3><i class="fas fa-th" aria-hidden="true"></i> <span class="feature">>Supply Chain Risk</span></h3>
                                 <p>Expands traditional Software Composition Analysis (SCA) by recognizing hardware/IoT as components with potential vulnerabilities</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
-                                <h3><i class="fas fa-globe" aria-hidden="true"></i> <a href="#">API and Integration</a></h3>
+                                <h3><i class="fas fa-globe" aria-hidden="true"></i> <span class="feature">API and Integration</span></h3>
                                 <p>Well documented API-first design integrates easily with other systems providing endless possibilities</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="cta-wrapper last-wrapper">
-                                <h3><i class="fas fa-database" aria-hidden="true"></i> <a href="#">Vulnerability Datasources</a></h3>
+                                <h3><i class="fas fa-database" aria-hidden="true"></i> <span class="feature">Vulnerability Datasources</span></h3>
                                 <p>Mirrors data from multiple sources of vulnerability intelligence providing more coverage on a wider range of components</p>
                             </div>
                         </div>
@@ -182,19 +182,19 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
-                                <h3><i class="fab fa-osi" aria-hidden="true"></i> <a href="#">Open Source</a></h3>
+                                <h3><i class="fab fa-osi" aria-hidden="true"></i> <span class="feature">Open Source</span></h3>
                                 <p>Community-driven project which encourages continuous improvement and is distributed under the Apache 2.0 license <i class="icon-apache"></i></p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
-                                <h3><i class="fas fa-archive" aria-hidden="true"></i> <a href="#">Bill of Materials (BoM)</a></h3>
+                                <h3><i class="fas fa-archive" aria-hidden="true"></i> <span class="feature">Bill of Materials (BoM)</span></h3>
                                 <p>Supports automatic ingestion of CycloneDX and SPDX BoM formats along with Dependency-Check reports</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="cta-wrapper last-wrapper">
-                                <h3><i class="fas fa-server" aria-hidden="true"></i> <a href="#">Enterprise Integrations</a></h3>
+                                <h3><i class="fas fa-server" aria-hidden="true"></i> <span class="feature">Enterprise Integrations</span></h3>
                                 <p>Supports Active Directory (via LDAP) for authentication and multiple commercial and open source database engines</p>
                             </div>
                         </div>
