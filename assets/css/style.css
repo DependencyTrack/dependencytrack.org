@@ -746,6 +746,8 @@ textarea, select {
       margin: 15px 0; }
       .cta-section-four .cta-container .cta-wrapper h3 .feature {
         color: #4d4d4e; }
+        .cta-section-four .cta-container .cta-wrapper h3 a:hover {
+          color: #ee2836; }
       @media only screen and (max-width: 767px) {
         .cta-section-four .cta-container .cta-wrapper h3 {
           font-size: 20px;
@@ -935,10 +937,12 @@ textarea, select {
     .sponsor-section {
       padding: 20px 0; } }
   .sponsor-section .sponsor-carousel .item img {
+    height: 60px;
     width: auto;
     margin: 0 auto; }
   .sponsor-section .sponsor-carousel-two .item img {
-    width: 120px;
+    height: 60px;
+    width: auto;
     margin: 0 auto; }
 
 /* =========================================================

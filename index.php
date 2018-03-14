@@ -77,12 +77,14 @@
             </div>
         </section>
 
+        <!-- todo: put this back when all sign-offs are complete
         <section class="sponsor-section">
             <div class="container">
-                <h2 class="hidden">client-title</h2>
+                <h5 class="text-center">Parnterships &amp; Sponsors</h5 class="text-cen">
                 <div class="sponsor-carousel owl-carousel owl-theme">
-                    <div class="item"><img src="assets/images/sponsor/rbs.png" alt="image"></div>
-                    <div class="item"><img src="assets/images/sponsor/owasp.png" alt="image"></div>
+                    <div class="item"><a href="https://www.owasp.org/"><img src="assets/images/partners/logo-owasp.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://www.threadfix.it/"><img src="assets/images/partners/logo-threadfix.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://www.riskbasedsecurity.com/"><img src="assets/images/partners/logo-rbs.svg" alt="image"></a></div>
                 </div>
             </div>
         </section>
@@ -92,6 +94,7 @@
                 <hr>
             </div>
         </div>
+        -->
 
         <section id="overview" class="admin-section">
             <div class="container">
@@ -143,7 +146,7 @@
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
                                 <h3><i class="fas fa-chart-bar" aria-hidden="true"></i> <span class="feature">Dashboard</span></h3>
-                                <p>Provides high-level metrics and trends on the portfolio and projects that are impacting an organizations risks</p>
+                                <p>Provides high-level metrics and trends on the inherited risk for all projects and components in the portfolio</p>
                             </div>
                         </div>
                         <div class="col-sm-4">

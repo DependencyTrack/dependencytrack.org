@@ -185,3 +185,14 @@ jQuery(function ($) {
         });
 
 });   // Jquery-End
+
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    items: 3,
+    margin: 0,
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true
+  });
+});
