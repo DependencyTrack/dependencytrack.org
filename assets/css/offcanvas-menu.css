@@ -27,9 +27,8 @@
 	line-height: 40px;
 	font-size: 25px;
 	text-align: center;
-	background-color: #313131;
+	color: #313131;
 	cursor: pointer;
-	color: #ffffff;
 }
 
 .menu-toggle {
@@ -55,12 +54,12 @@
 	content: "";
 	position: absolute;
     width: 130px;
-    height: 30px;
+    height: 40px;
     left: 0;
     right: 0;
     top: 50%;
-    margin: -15px auto 0;
-	background: url(../images/logo-m.png) no-repeat;
+    margin: -20px auto 0;
+	background: url(../images/logo-m.svg) no-repeat;
 }
 
 #offcanvas-menu .close-menu {
@@ -70,15 +69,15 @@
 }
 
 #offcanvas-menu .close-menu i {
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
 	font-size: 20px;
 	text-align: center;
 	border-radius: 50%;
 	cursor: pointer;
 	color: #ffffff;
-	background-color: #0a68ca;
+	background-color: #8e8b81;
 }
 
 #offcanvas-menu .menu-wrapper li a{

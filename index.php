@@ -48,7 +48,7 @@
                 </div>
             </nav>
             <div class="navbar-header inline-block visible-sm visible-xs">
-                <a class="navbar-brand" href="index.php"><img src="assets/images/logo-m.png" alt="image"></a>
+                <a class="navbar-brand" href="#home"><img src="assets/images/logo-m.svg" alt="image"></a>
             </div>
         </header>
 
@@ -217,12 +217,12 @@
                         <br/>
                         <div>
                             <span class="caption vertically-centered"><i class="icon-jetty download-icon"></i></span>
-                            <span class="download-option vertically-centered"><a href="https://github.com/stevespringett/dependency-track/releases">Download <i class="fas fa-download"></i> self-contained application (Requires Java)</a></span>
+                            <span class="download-option vertically-centered"><a href="https://github.com/stevespringett/dependency-track/releases">Download <i class="fas fa-download"></i> self-contained application (Requires Java 8 u101+)</a></span>
                         </div>
                         <br/>
                         <div>
                             <span class="caption vertically-centered"><i class="icon-tomcat download-icon"></i></span>
-                            <span class="download-option vertically-centered"><a href="https://github.com/stevespringett/dependency-track/releases">Download <i class="fas fa-download"></i> Java webapp (Requires Tomcat 8.5+ or Jetty 9.0+)</a></span>
+                            <span class="download-option vertically-centered"><a href="https://github.com/stevespringett/dependency-track/releases">Download <i class="fas fa-download"></i> Java webapp (Requires Java 8 u101+ and Tomcat 8.5+ or Jetty 9.0+)</a></span>
                         </div>
                     </div>
                 </div>
