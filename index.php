@@ -165,7 +165,7 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
-                                <h3><i class="fas fa-th" aria-hidden="true"></i> <span class="feature">>Supply Chain Risk</span></h3>
+                                <h3><i class="fas fa-th" aria-hidden="true"></i> <span class="feature">Supply Chain Risk</span></h3>
                                 <p>Expands traditional Software Composition Analysis (SCA) by recognizing hardware/IoT as components with potential vulnerabilities</p>
                             </div>
                         </div>
@@ -198,7 +198,7 @@
                         <div class="col-sm-4">
                             <div class="cta-wrapper last-wrapper">
                                 <h3><i class="fas fa-server" aria-hidden="true"></i> <span class="feature">Enterprise Integrations</span></h3>
-                                <p>Supports Active Directory (via LDAP) for authentication and multiple commercial and open source database engines</p>
+                                <p>Supports Active Directory/LDAP authentication and multiple commercial and open source database engines</p>
                             </div>
                         </div>
                     </div>
