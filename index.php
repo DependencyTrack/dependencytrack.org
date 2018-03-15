@@ -70,7 +70,7 @@
                     </div>
                     <div class="col-md-7 col-md-offset-0 col-sm-8 col-sm-offset-0 hidden-xs">
                         <div class="caption wow fadeInRight">
-                            <img src="assets/images/screenshots/dashboard.png" alt="">
+                            <img src="assets/images/screenshots/dashboard-small.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-sm-7">
-                        <div class="screenshot-lightbox caption wow fadeInLeft" data-wow-duration="1s"><a href="assets/images/screenshots/dashboard.png"><img src="assets/images/screenshots/dashboard.png" alt=""></a></div>
+                        <div class="screenshot-lightbox caption wow fadeInLeft" data-wow-duration="1s"><a href="assets/images/screenshots/dashboard.png"><img src="assets/images/screenshots/dashboard-small.png" alt=""></a></div>
                     </div>
                     <div class="col-md-3 col-md-offset-1 col-sm-5">
                         <div  class="right-bar">
@@ -120,12 +120,12 @@
                 <h2>Screenshots</h2>
             </div>
             <div class="screenshot-lightbox screen-carousel text-center">
-                <div><a href="assets/images/screenshots/components.png"><img src="assets/images/screenshots/components.png" alt=""></a></div>
-                <div><a href="assets/images/screenshots/projects.png"><img src="assets/images/screenshots/projects.png" alt=""></a></div>
-                <div><a href="assets/images/screenshots/vulnerabilities.png"><img src="assets/images/screenshots/vulnerabilities.png" alt=""></a></div>
-                <div><a href="assets/images/screenshots/vulnerability.png"><img src="assets/images/screenshots/vulnerability.png" alt=""></a></div>
-                <div><a href="assets/images/screenshots/vulnerable-component.png"><img src="assets/images/screenshots/vulnerable-component.png" alt=""></a></div>
-                <div><a href="assets/images/screenshots/license.png"><img src="assets/images/screenshots/license.png" alt=""></a></div>
+                <div><a href="assets/images/screenshots/components.png"><img src="assets/images/screenshots/components-small.png" alt=""></a></div>
+                <div><a href="assets/images/screenshots/projects.png"><img src="assets/images/screenshots/projects-small.png" alt=""></a></div>
+                <div><a href="assets/images/screenshots/vulnerabilities.png"><img src="assets/images/screenshots/vulnerabilities-small.png" alt=""></a></div>
+                <div><a href="assets/images/screenshots/vulnerability.png"><img src="assets/images/screenshots/vulnerability-small.png" alt=""></a></div>
+                <div><a href="assets/images/screenshots/vulnerable-component.png"><img src="assets/images/screenshots/vulnerable-component-small.png" alt=""></a></div>
+                <div><a href="assets/images/screenshots/license.png"><img src="assets/images/screenshots/license-small.png" alt=""></a></div>
             </div>
         </section>
 
