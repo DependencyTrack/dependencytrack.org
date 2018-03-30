@@ -1,8 +1,10 @@
 <?php
-	//header('Strict-Transport-Security: max-age=15768000');
-	header('X-Frame-Options: SAMEORIGIN');
-	header('X-XSS-Protection: 1; mode=block');
-	header('X-Content-Type-Options: nosniff');
+	//header("Strict-Transport-Security: max-age=15768000");
+  //header("Content-Security-Policy: default-src 'self'; font-src 'self' https://fonts.googleapis.com; style-src 'self' 'unsafe-inline'");
+  header("Referrer-Policy: no-referrer-when-downgrade");
+	header("X-Frame-Options: SAMEORIGIN");
+	header("X-XSS-Protection: 1; mode=block");
+	header("X-Content-Type-Options: nosniff");
 	// Redirect from HTTP to HTTPS
 /*
 	if ($_SERVER['HTTPS'] != "on") {
