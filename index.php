@@ -1,11 +1,12 @@
 <?php include ("security-headers.php") ?>
+<?php $version = "3.1.0"; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Dependency-Track is an intelligent Component Analysis platform that allows organizations to automatically ingest and identify third-party components and any inherited vulnerabilities from their use."/>
+        <meta name="description" content="Dependency-Track is an intelligent Software Composition Analysis (SCA) platform that allows organizations to identify and reduce risk from the use of third-party and open source components. Dependency-Track is open-source and distributed under the Apache 2.0 license."/>
         <meta name="keywords" content="sdlc, devops, devsecops, automation, software, bill of materials, owasp, appsec, security, bom, vulnerabilities, visibility, component analysis, nvd, nist, software security, dependency check, software composition analysis, sca, supply chain risk management, scrm, c-scrm, cybersecurity, node security platform, nsp, vulndb"/>
         <meta name="dcterms.rightsHolder" content="Steve Springett">
         <meta name="dcterms.dateCopyrighted" content="<?php echo date("Y"); ?>">
@@ -60,11 +61,11 @@
                             <span class="small-text"><span class="color-text">Reduce </span> Open Source Risk</span>
                             <h3>Continuous Component Analysis Platform</h3>
                             <a class="page-scroll" href="#download">
-                                <button class="btn btn-default">Download <i class="fas fa-download" aria-hidden="true"></i></button>
+                                <button class="btn btn-default">Download v<?php echo $version; ?> <i class="fas fa-download" aria-hidden="true"></i></button>
                             </a>
                             <span class="spacer"></span>
                             <a href="https://docs.dependencytrack.org/">
-                                <button class="btn btn-default">Documentation <i class="fas fa-book" aria-hidden="true"></i></button>
+                                <button class="btn btn-default">Docs <i class="fas fa-book" aria-hidden="true"></i></button>
                             </a>
                         </div>
                     </div>
@@ -80,11 +81,14 @@
         <!-- todo: put this back when all sign-offs are complete
         <section class="sponsor-section">
             <div class="container">
-                <h5 class="text-center">Parnterships &amp; Sponsors</h5 class="text-cen">
+                <h4 class="text-center">Connectors & Integrations</h4 class="text-cen">
                 <div class="sponsor-carousel owl-carousel owl-theme">
-                    <div class="item"><a href="https://www.owasp.org/"><img src="assets/images/partners/logo-owasp.svg" alt="image"></a></div>
-                    <div class="item"><a href="https://www.threadfix.it/"><img src="assets/images/partners/logo-threadfix.svg" alt="image"></a></div>
-                    <div class="item"><a href="https://www.riskbasedsecurity.com/"><img src="assets/images/partners/logo-rbs.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://www.owasp.org/"><img src="assets/images/integrations/logo-owasp.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://www.threadfix.it/"><img src="assets/images/integrations/logo-threadfix.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://www.riskbasedsecurity.com/"><img src="assets/images/integrations/logo-rbs.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://www.kennasecurity.com/"><img src="assets/images/integrations/logo-kenna.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://software.microfocus.com/en-us/solutions/application-security"><img src="assets/images/integrations/logo-fortify.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://www.atlassian.com/software/jira"><img src="assets/images/integrations/logo-jira.svg" alt="image"></a></div>
                 </div>
             </div>
         </section>
@@ -94,7 +98,7 @@
                 <hr>
             </div>
         </div>
-        -->
+       -->
 
         <section id="overview" class="admin-section">
             <div class="container">
@@ -137,7 +141,7 @@
                             <h2>Continuous Component Analysis</h2>
                         </div>
                         <div class="col-sm-6">
-                            <p>Dependency-Track is an intelligent Component Analysis platform that allows organizations to quickly identify third-party and open source components that are placing your applications at risk.</p>
+                            <p>Dependency-Track is an intelligent Software Composition Analysis (SCA) platform that allows organizations to identify and reduce risk from the use of third-party and open source components.</p>
                         </div>
                     </div>
                 </div>
@@ -157,8 +161,28 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
-                                <h3><i class="fas fa-crosshairs" aria-hidden="true"></i> <span class="feature">Rapid Response</span></h3>
-                                <p>Identifies vulnerabilities in all projects and applications which are affected from the use of vulnerable components</p>
+                                <h3><i class="fas fa-crosshairs" aria-hidden="true"></i> <span class="feature">Impact Analysis</span></h3>
+                                <p>Rapidly respond to identified vulnerabilities for projects which are affected from vulnerable components</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="cta-wrapper">
+                                <h3><i class="far fa-comment-alt" aria-hidden="true"></i> <span class="feature">Auditing Workflow</span></h3>
+                                <p>Quickly review findings for accuracy and make analysis decisions and comments on a per-project basis, or globally</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="cta-wrapper">
+                                <h3><i class="fas fa-eye" aria-hidden="true"></i> <span class="feature">Out-of-Date Detection</span></h3>
+                                <p>Identifies components that are not the most recent available which indirectly impact project health and risk</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="cta-wrapper">
+                                <h3><i class="fas fa-table" aria-hidden="true"></i> <span class="feature">Expansive Datamodel</span></h3>
+                                <p>Supports a wide range or attributes for describing and searching for projects, components, and other relevant data</p>
                             </div>
                         </div>
                     </div>
@@ -217,12 +241,12 @@
                         <br/>
                         <div>
                             <span class="caption vertically-centered"><i class="icon-jetty download-icon"></i></span>
-                            <span class="download-option vertically-centered"><a href="https://github.com/stevespringett/dependency-track/releases/download/3.0.4/dependency-track-embedded.war">Download <i class="fas fa-download"></i> self-contained application (Requires Java 8 u101+)</a></span>
+                            <span class="download-option vertically-centered"><a href="https://github.com/stevespringett/dependency-track/releases/download/<?php echo $version; ?>/dependency-track-embedded.war">Download v<?php echo $version; ?> <i class="fas fa-download"></i> self-contained application (Requires Java 8 u101+)</a></span>
                         </div>
                         <br/>
                         <div>
                             <span class="caption vertically-centered"><i class="icon-tomcat download-icon"></i></span>
-                            <span class="download-option vertically-centered"><a href="https://github.com/stevespringett/dependency-track/releases/download/3.0.4/dependency-track.war">Download <i class="fas fa-download"></i> Java webapp (Requires Java 8 u101+ and Tomcat 8.5+ or Jetty 9.0+)</a></span>
+                            <span class="download-option vertically-centered"><a href="https://github.com/stevespringett/dependency-track/releases/download/<?php echo $version; ?>/dependency-track.war">Download v<?php echo $version; ?> <i class="fas fa-download"></i> Java webapp (Requires Java 8 u101+ and Tomcat 8.5+ or Jetty 9.0+)</a></span>
                         </div>
                     </div>
                 </div>
@@ -234,6 +258,7 @@
                     <a href="https://www.youtube.com/channel/UC8xdttysl3gNAQYvk1J9Efg"><i class="fab fa-youtube social-icon" aria-hidden="true" title="YouTube"></i></a>
                     <a href="https://owasp.slack.com/messages/proj-dependency-track"><i class="fab fa-slack-hash social-icon" aria-hidden="true" title="Slack"></i></a>
                     <a href="https://gitter.im/dependency-track/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"><i class="fab fa-gitter social-icon" aria-hidden="true" title="Gitter"></i></a>
+                    <a href="https://docs.dependencytrack.org"><i class="fas fa-book social-icon" aria-hidden="true" title="Documentation"></i></a>
                 </div>
             </div>
         </section>
