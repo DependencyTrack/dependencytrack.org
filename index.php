@@ -28,7 +28,7 @@
     </head>
     <body class="singlePage" id="page-top" data-spy="scroll" data-target=".navbar">
 
-        <a class="github-fork-ribbon" href="https://github.com/stevespringett/dependency-track/fork" data-ribbon="Fork me on GitHub">Fork me on GitHub</a>
+        <a class="github-fork-ribbon" href="https://github.com/DependencyTrack/dependency-track/fork" data-ribbon="Fork me on GitHub">Fork me on GitHub</a>
 
         <header id="home" class="header-section">
             <nav class="navbar navbar-inverse hidden-sm hidden-xs">
@@ -241,19 +241,19 @@
                         <br/>
                         <div>
                             <span class="caption vertically-centered"><i class="icon-jetty download-icon"></i></span>
-                            <span class="download-option vertically-centered"><a href="https://github.com/stevespringett/dependency-track/releases/download/<?php echo $version; ?>/dependency-track-embedded.war">Download v<?php echo $version; ?> <i class="fas fa-download"></i> self-contained application (Requires Java 8 u101+)</a></span>
+                            <span class="download-option vertically-centered"><a href="https://github.com/DependencyTrack/dependency-track/releases/download/<?php echo $version; ?>/dependency-track-embedded.war">Download v<?php echo $version; ?> <i class="fas fa-download"></i> self-contained application (Requires Java 8 u101+)</a></span>
                         </div>
                         <br/>
                         <div>
                             <span class="caption vertically-centered"><i class="icon-tomcat download-icon"></i></span>
-                            <span class="download-option vertically-centered"><a href="https://github.com/stevespringett/dependency-track/releases/download/<?php echo $version; ?>/dependency-track.war">Download v<?php echo $version; ?> <i class="fas fa-download"></i> Java webapp (Requires Java 8 u101+ and Tomcat 8.5+ or Jetty 9.0+)</a></span>
+                            <span class="download-option vertically-centered"><a href="https://github.com/DependencyTrack/dependency-track/releases/download/<?php echo $version; ?>/dependency-track.war">Download v<?php echo $version; ?> <i class="fas fa-download"></i> Java webapp (Requires Java 8 u101+ and Tomcat 8.5+ or Jetty 9.0+)</a></span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="social">
                 <div class="title text-center">
-                    <a href="https://github.com/stevespringett/dependency-track"><i class="fab fa-github social-icon" aria-hidden="true" title="GitHub"></i></a>
+                    <a href="https://github.com/DependencyTrack/dependency-track"><i class="fab fa-github social-icon" aria-hidden="true" title="GitHub"></i></a>
                     <a href="https://twitter.com/dependencytrack"><i class="fab fa-twitter social-icon" aria-hidden="true" title="Twitter"></i></a>
                     <a href="https://www.youtube.com/channel/UC8xdttysl3gNAQYvk1J9Efg"><i class="fab fa-youtube social-icon" aria-hidden="true" title="YouTube"></i></a>
                     <a href="https://owasp.slack.com/messages/proj-dependency-track"><i class="fab fa-slack-hash social-icon" aria-hidden="true" title="Slack"></i></a>
