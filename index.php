@@ -255,6 +255,7 @@
                 <div class="title text-center">
                     <a href="https://github.com/DependencyTrack/dependency-track"><i class="fab fa-github social-icon" aria-hidden="true" title="GitHub"></i></a>
                     <a href="https://twitter.com/dependencytrack"><i class="fab fa-twitter social-icon" aria-hidden="true" title="Twitter"></i></a>
+                    <a href="https://plus.google.com/102280289147113238499"><i class="fab fa-google-plus social-icon" aria-hidden="true" title="Google+"></i></a>
                     <a href="https://www.youtube.com/channel/UC8xdttysl3gNAQYvk1J9Efg"><i class="fab fa-youtube social-icon" aria-hidden="true" title="YouTube"></i></a>
                     <a href="https://owasp.slack.com/messages/proj-dependency-track"><i class="fab fa-slack-hash social-icon" aria-hidden="true" title="Slack"></i></a>
                     <a href="https://gitter.im/dependency-track/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"><i class="fab fa-gitter social-icon" aria-hidden="true" title="Gitter"></i></a>
