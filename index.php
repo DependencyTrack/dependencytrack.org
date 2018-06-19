@@ -81,7 +81,7 @@
         <!-- todo: put this back when all sign-offs are complete
         <section class="sponsor-section">
             <div class="container">
-                <h4 class="text-center">Connectors & Integrations</h4 class="text-cen">
+                <h4 class="text-center">Connectors & Integrations</h4>
                 <div class="sponsor-carousel owl-carousel owl-theme">
                     <div class="item"><a href="https://www.owasp.org/"><img src="assets/images/integrations/logo-owasp.svg" alt="image"></a></div>
                     <div class="item"><a href="https://www.threadfix.it/"><img src="assets/images/integrations/logo-threadfix.svg" alt="image"></a></div>
