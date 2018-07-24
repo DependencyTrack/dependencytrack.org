@@ -86,6 +86,7 @@
                     <div class="item"><a href="https://www.owasp.org/"><img src="assets/images/integrations/logo-owasp.svg" alt="image"></a></div>
                     <div class="item"><a href="https://www.threadfix.it/"><img src="assets/images/integrations/logo-threadfix.svg" alt="image"></a></div>
                     <div class="item"><a href="https://www.riskbasedsecurity.com/"><img src="assets/images/integrations/logo-rbs.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://ossindex.net/"><img src="assets/images/integrations/logo-sonatype-ossindex.svg" alt="image"></a></div>
                     <div class="item"><a href="https://slack.com/"><img src="assets/images/integrations/logo-slack.svg" alt="image"></a></div>
                     <div class="item"><a href="https://www.kennasecurity.com/"><img src="assets/images/integrations/logo-kenna.svg" alt="image"></a></div>
                     <div class="item"><a href="https://software.microfocus.com/en-us/solutions/application-security"><img src="assets/images/integrations/logo-fortify.svg" alt="image"></a></div>
