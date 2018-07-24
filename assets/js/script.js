@@ -194,7 +194,7 @@ $(document).ready(function(){
     margin: 0,
     loop: true,
     autoplay: true,
-    autoplayTimeout: 2000,
+    autoplayTimeout: 1500,
     autoplayHoverPause: true
   });
 });
