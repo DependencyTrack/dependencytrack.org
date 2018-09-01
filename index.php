@@ -1,5 +1,5 @@
 <?php include ("security-headers.php") ?>
-<?php $version = "3.1.1"; ?>
+<?php $version = "3.2.0"; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -40,9 +40,9 @@
                         <ul class="nav navbar-nav">
                             <li><a class="page-scroll" href="#home">Home</a></li>
                             <li><a class="page-scroll" href="#overview">Overview</a></li>
-                            <li><a class="page-scroll" href="#screenshots">Screenshots</a></li>
                             <li><a class="page-scroll" href="#features">Features</a></li>
                             <li><a class="page-scroll" href="#download">Download</a></li>
+                            <li><a class="page-scroll" href="https://docs.dependencytrack.org/">Documentation</a></li>
                             <li><a class="page-scroll" href="https://www.owasp.org/index.php/OWASP_Dependency_Track_Project"><img src="assets/images/logo-owasp-small.svg"></a></li>
                         </ul>
                     </div>
@@ -63,10 +63,6 @@
                             <a class="page-scroll" href="#download">
                                 <button class="btn btn-default">Download v<?php echo $version; ?> <i class="fas fa-download" aria-hidden="true"></i></button>
                             </a>
-                            <span class="spacer"></span>
-                            <a href="https://docs.dependencytrack.org/">
-                                <button class="btn btn-default">Docs <i class="fas fa-book" aria-hidden="true"></i></button>
-                            </a>
                         </div>
                     </div>
                     <div class="col-md-7 col-md-offset-0 col-sm-8 col-sm-offset-0 hidden-xs">
@@ -78,8 +74,7 @@
             </div>
         </section>
 
-        <!-- todo: put this back when all sign-offs are complete
-        <section class="sponsor-section">
+        <section class="sponsor-section hidden-sm hidden-xs">
             <div class="container">
                 <h4 class="text-center">Connectors & Integrations</h4>
                 <div class="sponsor-carousel owl-carousel owl-theme">
@@ -88,9 +83,11 @@
                     <div class="item"><a href="https://www.riskbasedsecurity.com/"><img src="assets/images/integrations/logo-rbs.svg" alt="image"></a></div>
                     <div class="item"><a href="https://ossindex.net/"><img src="assets/images/integrations/logo-sonatype-ossindex.svg" alt="image"></a></div>
                     <div class="item"><a href="https://slack.com/"><img src="assets/images/integrations/logo-slack.svg" alt="image"></a></div>
-                    <div class="item"><a href="https://www.kennasecurity.com/"><img src="assets/images/integrations/logo-kenna.svg" alt="image"></a></div>
-                    <div class="item"><a href="https://software.microfocus.com/en-us/solutions/application-security"><img src="assets/images/integrations/logo-fortify.svg" alt="image"></a></div>
-                    <div class="item"><a href="https://www.atlassian.com/software/jira"><img src="assets/images/integrations/logo-jira.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://nvd.nist.gov/"><img src="assets/images/integrations/logo-nvd.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://www.npmjs.com/"><img src="assets/images/integrations/logo-npm.svg" alt="image"></a></div>
+                    <!-- <div class="item"><a href="https://www.kennasecurity.com/"><img src="assets/images/integrations/logo-kenna.svg" alt="image"></a></div> -->
+                    <!-- <div class="item"><a href="https://software.microfocus.com/en-us/solutions/application-security"><img src="assets/images/integrations/logo-fortify.svg" alt="image"></a></div> -->
+                    <!-- <div class="item"><a href="https://www.atlassian.com/software/jira"><img src="assets/images/integrations/logo-jira.svg" alt="image"></a></div> -->
                     <div class="item"><a href="http://microsoft.com/teams"><img src="assets/images/integrations/logo-teams.svg" alt="image"></a></div>
                 </div>
             </div>
@@ -101,7 +98,6 @@
                 <hr>
             </div>
         </div>
-       -->
 
         <section id="overview" class="admin-section">
             <div class="container">
@@ -184,8 +180,8 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
-                                <h3><i class="fas fa-table" aria-hidden="true"></i> <span class="feature">Expansive Datamodel</span></h3>
-                                <p>Supports a wide range or attributes for describing and searching for projects, components, and other relevant data</p>
+                                <h3><i class="fas fa-bell" aria-hidden="true"></i> <span class="feature">Notifications</span></h3>
+                                <p>Supports notifications to Slack, Microsoft Teams, outbound webhooks, and email, enabling new levels of collaboration and automation</p>
                             </div>
                         </div>
                     </div>
