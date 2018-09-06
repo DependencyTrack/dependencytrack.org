@@ -252,7 +252,7 @@
             </div>
             <div class="social">
                 <div class="title text-center">
-                    <a href="https://github.com/DependencyTrack/dependency-track"><i class="fab fa-github social-icon" aria-hidden="true" title="GitHub"></i></a>
+                    <a href="https://github.com/DependencyTrack"><i class="fab fa-github social-icon" aria-hidden="true" title="GitHub"></i></a>
                     <a href="https://twitter.com/dependencytrack"><i class="fab fa-twitter social-icon" aria-hidden="true" title="Twitter"></i></a>
                     <a href="https://plus.google.com/102280289147113238499"><i class="fab fa-google-plus social-icon" aria-hidden="true" title="Google+"></i></a>
                     <a href="https://www.youtube.com/channel/UC8xdttysl3gNAQYvk1J9Efg"><i class="fab fa-youtube social-icon" aria-hidden="true" title="YouTube"></i></a>
