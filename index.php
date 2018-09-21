@@ -1,5 +1,5 @@
 <?php include ("security-headers.php") ?>
-<?php $version = "3.2.0"; ?>
+<?php $version = "3.2.1"; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -82,6 +82,7 @@
                     <div class="item"><a href="https://www.threadfix.it/"><img src="assets/images/integrations/logo-threadfix.svg" alt="image"></a></div>
                     <div class="item"><a href="https://www.riskbasedsecurity.com/"><img src="assets/images/integrations/logo-rbs.svg" alt="image"></a></div>
                     <div class="item"><a href="https://jenkins.io/"><img src="assets/images/integrations/logo-jenkins.svg" alt="image"></a></div>
+                    <!-- <div class="item"><a href="https://www.jetbrains.com/teamcity/"><img src="assets/images/integrations/logo-teamcity.svg" alt="image"></a></div> -->
                     <div class="item"><a href="https://ossindex.net/"><img src="assets/images/integrations/logo-sonatype-ossindex.svg" alt="image"></a></div>
                     <div class="item"><a href="https://slack.com/"><img src="assets/images/integrations/logo-slack.svg" alt="image"></a></div>
                     <div class="item"><a href="https://nvd.nist.gov/"><img src="assets/images/integrations/logo-nvd.svg" alt="image"></a></div>
@@ -284,6 +285,7 @@
                 <li><a class="page-scroll" href="#screenshots">Screenshots</a></li>
                 <li><a class="page-scroll" href="#features">Features</a></li>
                 <li><a class="page-scroll" href="#download">Download</a></li>
+                <li><a class="page-scroll" href="https://docs.dependencytrack.org/">Documentation</a></li>
                 <li><a class="page-scroll" href="https://www.owasp.org/index.php/OWASP_Dependency_Track_Project"><img src="assets/images/logo-owasp-small.svg"></a></li>
             </ul>
         </div>
