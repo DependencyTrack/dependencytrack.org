@@ -107,6 +107,7 @@ jQuery(function ($) {
     $('.screen-carousel').slick({
       centerMode: true,
       centerPadding: '0',
+      mobileFirst: true,
       slidesToShow: 3,
       autoplay: 'true',
       dots: true,
