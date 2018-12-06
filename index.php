@@ -88,7 +88,7 @@
                     <div class="item"><a href="https://nvd.nist.gov/"><img src="assets/images/integrations/logo-nvd.svg" alt="image"></a></div>
                     <div class="item"><a href="https://www.npmjs.com/"><img src="assets/images/integrations/logo-npm.svg" alt="image"></a></div>
                     <!-- <div class="item"><a href="https://www.kennasecurity.com/"><img src="assets/images/integrations/logo-kenna.svg" alt="image"></a></div> -->
-                    <!-- <div class="item"><a href="https://software.microfocus.com/en-us/solutions/application-security"><img src="assets/images/integrations/logo-fortify.svg" alt="image"></a></div> -->
+                    <div class="item"><a href="https://software.microfocus.com/en-us/solutions/application-security"><img src="assets/images/integrations/logo-fortify.svg" alt="image"></a></div>
                     <!-- <div class="item"><a href="https://www.atlassian.com/software/jira"><img src="assets/images/integrations/logo-jira.svg" alt="image"></a></div> -->
                     <div class="item"><a href="https://microsoft.com/teams"><img src="assets/images/integrations/logo-teams.svg" alt="image"></a></div>
                 </div>
