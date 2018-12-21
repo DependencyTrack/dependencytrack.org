@@ -87,7 +87,7 @@
                     <div class="item"><a href="https://slack.com/"><img src="assets/images/integrations/logo-slack.svg" alt="image"></a></div>
                     <div class="item"><a href="https://nvd.nist.gov/"><img src="assets/images/integrations/logo-nvd.svg" alt="image"></a></div>
                     <div class="item"><a href="https://www.npmjs.com/"><img src="assets/images/integrations/logo-npm.svg" alt="image"></a></div>
-                    <!-- <div class="item"><a href="https://www.kennasecurity.com/"><img src="assets/images/integrations/logo-kenna.svg" alt="image"></a></div> -->
+                    <div class="item"><a href="https://www.kennasecurity.com/"><img src="assets/images/integrations/logo-kenna.svg" alt="image"></a></div>
                     <div class="item"><a href="https://software.microfocus.com/en-us/solutions/application-security"><img src="assets/images/integrations/logo-fortify.svg" alt="image"></a></div>
                     <!-- <div class="item"><a href="https://www.atlassian.com/software/jira"><img src="assets/images/integrations/logo-jira.svg" alt="image"></a></div> -->
                     <div class="item"><a href="https://microsoft.com/teams"><img src="assets/images/integrations/logo-teams.svg" alt="image"></a></div>
@@ -210,14 +210,14 @@
                     <div class="row">
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
-                                <h3><i class="fab fa-osi" aria-hidden="true"></i> <span class="feature">Open Source</span></h3>
-                                <p>Community-driven project which encourages continuous improvement and is distributed under the Apache 2.0 license <i class="icon-apache"></i></p>
+                                <h3><i class="fas fa-fingerprint" aria-hidden="true"></i> <span class="feature">Vulnerability Aggregation</span></h3>
+                                <p>Native integration with multiple application risk platforms providing organizations a consolidated view of prioritized findings</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
-                                <h3><i class="fas fa-archive" aria-hidden="true"></i> <span class="feature">Bill of Materials (BoM)</span></h3>
-                                <p>Supports automatic ingestion of CycloneDX and SPDX BoM formats along with Dependency-Check reports</p>
+                                <h3><i class="fas fa-archive" aria-hidden="true"></i> <span class="feature">Bill of Materials (BOM)</span></h3>
+                                <p>Promotes Software Transparency with support for the automatic ingestion of CycloneDX and SPDX BOM formats</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
@@ -225,6 +225,18 @@
                                 <h3><i class="fas fa-server" aria-hidden="true"></i> <span class="feature">Enterprise Integrations</span></h3>
                                 <p>Supports Active Directory/LDAP authentication and multiple commercial and open source database engines</p>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="cta-wrapper">
+                                <h3><i class="fab fa-osi" aria-hidden="true"></i> <span class="feature">Open Source</span></h3>
+                                <p>Community-driven project which encourages continuous improvement and is distributed under the Apache 2.0 license <i class="icon-apache"></i></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
                         </div>
                     </div>
                 </div>
