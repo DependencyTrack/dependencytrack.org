@@ -9,3 +9,4 @@ Redirect 302 /docker https://hub.docker.com/r/owasp/dependency-track/
 Redirect 302 /download https://github.com/DependencyTrack/dependency-track/releases
 Redirect 302 /github https://github.com/DependencyTrack
 Redirect 302 /glo https://app.gitkraken.com/glo/board/Wyg11jYqEg4AI4OQ
+Redirect 302 /twitter https://twitter.com/DependencyTrack
