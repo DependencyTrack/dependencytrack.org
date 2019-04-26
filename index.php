@@ -76,7 +76,7 @@
         <section class="admin-section video-section hidden-sm hidden-xs">
             <div class="video-container">
                 <div class="video-overlay">
-                    <div id="process-header">Continuous Component Analysis at DevOps Speed</div>
+                    <div id="process-header">Software Supply Chain Analysis at DevOps Speed</div>
                     <div class="process" id="process-cicd">
                         <p>SBOM Production<br/><i class="fas fa-sort-down"></i></p>
                         <p>CycloneDX Software Bill-of-Materials created during CI/CD or acquired from suppliers</p>
