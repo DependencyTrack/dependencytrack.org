@@ -39,8 +39,7 @@
                     <div class="collapse navbar-collapse navbar-right">
                         <ul class="nav navbar-nav">
                             <li><a class="page-scroll" href="#home">Home</a></li>
-                            <li><a class="page-scroll" href="#overview">Overview</a></li>
-                            <li><a class="page-scroll" href="#features">Features</a></li>
+                            <li><a class="page-scroll" href="#features">Platform</a></li>
                             <li><a class="page-scroll" href="#download">Download</a></li>
                             <li><a class="page-scroll" href="https://docs.dependencytrack.org/">Documentation</a></li>
                             <li><a class="page-scroll" href="https://www.owasp.org/index.php/OWASP_Dependency_Track_Project"><img src="assets/images/logo-owasp-small.svg"></a></li>
@@ -74,33 +73,43 @@
             </div>
         </section>
 
-        <section class="sponsor-section hidden-sm hidden-xs">
-            <div class="container">
-                <h4 class="text-center">Connectors & Integrations</h4>
-                <div class="sponsor-carousel owl-carousel owl-theme">
-                    <div class="item"><a href="https://www.owasp.org/"><img src="assets/images/integrations/logo-owasp.svg" alt="image"></a></div>
-                    <div class="item"><a href="https://www.threadfix.it/"><img src="assets/images/integrations/logo-threadfix.svg" alt="image"></a></div>
-                    <div class="item"><a href="https://www.riskbasedsecurity.com/"><img src="assets/images/integrations/logo-rbs.svg" alt="image"></a></div>
-                    <div class="item"><a href="https://jenkins.io/"><img src="assets/images/integrations/logo-jenkins.svg" alt="image"></a></div>
-                    <!-- <div class="item"><a href="https://www.jetbrains.com/teamcity/"><img src="assets/images/integrations/logo-teamcity.svg" alt="image"></a></div> -->
-                    <div class="item"><a href="https://ossindex.net/"><img src="assets/images/integrations/logo-sonatype-ossindex.svg" alt="image"></a></div>
-                    <div class="item"><a href="https://slack.com/"><img src="assets/images/integrations/logo-slack.svg" alt="image"></a></div>
-                    <div class="item"><a href="https://nvd.nist.gov/"><img src="assets/images/integrations/logo-nvd.svg" alt="image"></a></div>
-                    <div class="item"><a href="https://www.npmjs.com/"><img src="assets/images/integrations/logo-npm.svg" alt="image"></a></div>
-                    <div class="item"><a href="https://www.kennasecurity.com/"><img src="assets/images/integrations/logo-kenna.svg" alt="image"></a></div>
-                    <div class="item"><a href="https://software.microfocus.com/en-us/solutions/application-security"><img src="assets/images/integrations/logo-fortify.svg" alt="image"></a></div>
-                    <!-- <div class="item"><a href="https://www.atlassian.com/software/jira"><img src="assets/images/integrations/logo-jira.svg" alt="image"></a></div> -->
-                    <div class="item"><a href="https://microsoft.com/teams"><img src="assets/images/integrations/logo-teams.svg" alt="image"></a></div>
+        <section class="admin-section video-section hidden-sm hidden-xs">
+            <div class="video-container">
+                <div class="video-overlay">
+                    <div id="process-header">Continuous Component Analysis at DevOps Speed</div>
+                    <div class="process" id="process-cicd">
+                        <p>SBOM Production<br/><i class="fas fa-sort-down"></i></p>
+                        <p>CycloneDX Software Bill-of-Materials created during CI/CD or acquired from suppliers</p>
+                    </div>
+                    <div class="process" id="process-ingest">
+                        <p><i class="fas fa-sort-up"></i><br>SBOM Ingestion</p>
+                        <p>Publish SBOMs to Dependency-Track using REST API or via the Dependency-Track Jenkins plugin</p>
+                    </div>
+                    <div class="process" id="process-analyze">
+                        <p>Dependency-Track<br/><i class="fas fa-sort-down"></i></p>
+                        <p>Consumes and analyzes SBOMs for known vulnerabilities, license compliance, and outdated components</p>
+                    </div>
+                    <div class="process" id="process-intelligence">
+                        <p>Intelligence Streams<br/><i class="fas fa-sort-down"></i></p>
+                        <p>Produces real-time analysis and security events delivering actionable findings to external systems</p>
+                    </div>
+                    <div class="process" id="process-portfolio">
+                        <p><i class="fas fa-sort-up"></i><br>Continuous Portfolio Monitoring</p>
+                        <p>Continuously monitors every component across all applications in an organizations environment</p>
+                    </div>
+                    <div class="process" id="process-aggregation">
+                        <p><i class="fas fa-sort-up"></i><br>Intelligence Delivered</p>
+                        <p>Events delivered via webhooks or chat-ops and findings published to risk management and vulnerability aggregation platforms</p>
+                    </div>
                 </div>
+                <video autoplay="autoplay" loop="loop" muted="muted" style="max-width:100%; background-image:url(/assets/video/PFlow2K-cropped-50-20-300-20-v1.0.png);" poster="/assets/video/PFlow2K-cropped-50-20-300-20-v1.0.png" id="processFlowVideo">
+                    <source src="/assets/video/PFlow2K-cropped-50-20-300-20-v1.0.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </section>
 
-        <div class="border">
-            <div class="container">
-                <hr>
-            </div>
-        </div>
-
+        <!--
         <section id="overview" class="admin-section">
             <div class="container">
                 <div class="row">
@@ -119,6 +128,7 @@
                 </div>
             </div>
         </section>
+        -->
 
         <section id="screenshots" class="screen-section section-padding">
             <div class="title text-center">
@@ -139,7 +149,7 @@
                 <div class="title">
                     <div class="row">
                         <div class="col-sm-6">
-                            <h2>Continuous Component Analysis</h2>
+                            <h2>Platform Features</h2>
                         </div>
                         <div class="col-sm-6">
                             <p>Dependency-Track is an intelligent Software Composition Analysis (SCA) platform that allows organizations to identify and reduce risk from the use of third-party and open source components.</p>
@@ -243,6 +253,27 @@
             </div>
         </section>
 
+        <section class="sponsor-section hidden-sm hidden-xs">
+            <div class="container">
+                <h4 class="text-center">Connectors & Integrations</h4>
+                <div class="sponsor-carousel owl-carousel owl-theme">
+                    <div class="item"><a href="https://www.owasp.org/"><img src="assets/images/integrations/logo-owasp.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://www.threadfix.it/"><img src="assets/images/integrations/logo-threadfix.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://www.riskbasedsecurity.com/"><img src="assets/images/integrations/logo-rbs.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://jenkins.io/"><img src="assets/images/integrations/logo-jenkins.svg" alt="image"></a></div>
+                    <!-- <div class="item"><a href="https://www.jetbrains.com/teamcity/"><img src="assets/images/integrations/logo-teamcity.svg" alt="image"></a></div> -->
+                    <div class="item"><a href="https://ossindex.net/"><img src="assets/images/integrations/logo-sonatype-ossindex.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://slack.com/"><img src="assets/images/integrations/logo-slack.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://nvd.nist.gov/"><img src="assets/images/integrations/logo-nvd.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://www.npmjs.com/"><img src="assets/images/integrations/logo-npm.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://www.kennasecurity.com/"><img src="assets/images/integrations/logo-kenna.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://software.microfocus.com/en-us/solutions/application-security"><img src="assets/images/integrations/logo-fortify.svg" alt="image"></a></div>
+                    <!-- <div class="item"><a href="https://www.atlassian.com/software/jira"><img src="assets/images/integrations/logo-jira.svg" alt="image"></a></div> -->
+                    <div class="item"><a href="https://microsoft.com/teams"><img src="assets/images/integrations/logo-teams.svg" alt="image"></a></div>
+                </div>
+            </div>
+        </section>
+
         <section id="download" class="download-section">
             <div class="container">
                 <div class="col-md-12">
@@ -293,9 +324,8 @@
             <span class="close-menu"><i class="fa fa-times" aria-hidden="true"></i></span>
             <ul class="menu-wrapper">
                 <li><a class="page-scroll" href="#home">Home</a></li>
-                <li><a class="page-scroll" href="#overview">Overview</a></li>
                 <li><a class="page-scroll" href="#screenshots">Screenshots</a></li>
-                <li><a class="page-scroll" href="#features">Features</a></li>
+                <li><a class="page-scroll" href="#features">Platform</a></li>
                 <li><a class="page-scroll" href="#download">Download</a></li>
                 <li><a class="page-scroll" href="https://docs.dependencytrack.org/">Documentation</a></li>
                 <li><a class="page-scroll" href="https://www.owasp.org/index.php/OWASP_Dependency_Track_Project"><img src="assets/images/logo-owasp-small.svg"></a></li>
