@@ -1338,8 +1338,8 @@ textarea, select {
   width: 300px;
   height: 60px;
   color: #000000;
-  transition: height 1.0s;
-  -webkit-transition: height 1.0s;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
   overflow: hidden;
 }
 .process p {
