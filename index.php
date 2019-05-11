@@ -12,8 +12,8 @@
         <meta name="dcterms.dateCopyrighted" content="<?php echo date("Y"); ?>">
         <meta name="robots" content="index,follow"/>
         <title>Dependency-Track | Software Composition Analysis | OWASP</title>
-        <link rel="author" href="https://www.google.com/+SteveSpringett"/>
-        <link rel="publisher" href="https://www.google.com/+SteveSpringett"/>
+        <link rel="author" href="https://springett.us/"/>
+        <link rel="publisher" href="https://springett.us/"/>
         <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
         <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
@@ -78,31 +78,31 @@
                 <div class="video-overlay">
                     <div id="process-header">Software Supply Chain Analysis at DevOps Speed</div>
                     <div class="process" id="process-cicd">
-                        <p>SBOM Production<br/><i class="fas fa-sort-down"></i></p>
+                        <p>SBoM Production<br/><i class="fas fa-sort-down"></i></p>
                         <p>CycloneDX Software Bill-of-Materials created during CI/CD or acquired from suppliers</p>
                     </div>
                     <div class="process" id="process-ingest">
-                        <p><i class="fas fa-sort-up"></i><br>SBOM Ingestion</p>
-                        <p>Publish SBOMs to Dependency-Track using REST API or via the Dependency-Track Jenkins plugin</p>
+                        <p><i class="fas fa-sort-up"></i><br>SBoM Ingestion</p>
+                        <p>SBoMs published to Dependency-Track via REST, Jenkins plugin, or uploaded through web interface</p>
                     </div>
                     <div class="process" id="process-analyze">
                         <p>Dependency-Track<br/><i class="fas fa-sort-down"></i></p>
-                        <p>Consumes and analyzes SBOMs for known vulnerabilities, license compliance, and outdated components</p>
+                        <p>Analyzes projects for known vulnerabilities, license compliance, and outdated components</p>
                     </div>
                     <div class="process" id="process-intelligence">
                         <p>Intelligence Streams<br/><i class="fas fa-sort-down"></i></p>
                         <p>Produces real-time analysis and security events delivering actionable findings to external systems</p>
                     </div>
                     <div class="process" id="process-portfolio">
-                        <p><i class="fas fa-sort-up"></i><br>Continuous Portfolio Monitoring</p>
-                        <p>Continuously monitors every component across all applications in an organizations environment</p>
+                        <p><i class="fas fa-sort-up"></i><br>Continuous Monitoring</p>
+                        <p>Continuously analyzes all applications in an organizations portfolio</p>
                     </div>
                     <div class="process" id="process-aggregation">
-                        <p><i class="fas fa-sort-up"></i><br>Intelligence Delivered</p>
+                        <p><i class="fas fa-sort-up"></i><br>Intelligent Response</p>
                         <p>Events delivered via webhooks or chat-ops and findings published to risk management and vulnerability aggregation platforms</p>
                     </div>
                 </div>
-                <video autoplay="autoplay" loop="loop" muted="muted" style="max-width:100%; background-image:url(/assets/video/PFlow2K-cropped-50-20-300-20-v1.0.png);" poster="/assets/video/PFlow2K-cropped-50-20-300-20-v1.0.png" id="processFlowVideo">
+                <video autoplay="autoplay" loop="loop" muted="muted" style="max-width:90%; background-image:url(/assets/video/PFlow2K-cropped-50-20-300-20-v1.0.png);" poster="/assets/video/PFlow2K-cropped-50-20-300-20-v1.0.png" id="processFlowVideo">
                     <source src="/assets/video/PFlow2K-cropped-50-20-300-20-v1.0.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -299,7 +299,6 @@
                 <div class="title text-center">
                     <a href="https://github.com/DependencyTrack"><i class="fab fa-github social-icon" aria-hidden="true" title="GitHub"></i></a>
                     <a href="https://twitter.com/dependencytrack"><i class="fab fa-twitter social-icon" aria-hidden="true" title="Twitter"></i></a>
-                    <a href="https://plus.google.com/102280289147113238499"><i class="fab fa-google-plus social-icon" aria-hidden="true" title="Google+"></i></a>
                     <a href="https://www.youtube.com/channel/UC8xdttysl3gNAQYvk1J9Efg"><i class="fab fa-youtube social-icon" aria-hidden="true" title="YouTube"></i></a>
                     <a href="https://owasp.slack.com/messages/proj-dependency-track"><i class="fab fa-slack-hash social-icon" aria-hidden="true" title="Slack"></i></a>
                     <a href="https://gitter.im/dependency-track/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"><i class="fab fa-gitter social-icon" aria-hidden="true" title="Gitter"></i></a>

@@ -1317,11 +1317,16 @@ textarea, select {
 .video-container {
   position: relative;
 }
+@media (min-width: 991px) and (max-width: 1200px) {
+  .video-container {
+    padding-top: 40px;
+  }
+}
 .video-overlay {
   position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
+  left: 5%;
+  top: 0;
+  width: 90%;
   height: 100%;
 }
 .process {
@@ -1332,7 +1337,6 @@ textarea, select {
   text-align: center;
   width: 300px;
   height: 60px;
-  line-height: 1em;
   color: #000000;
   transition: height 1.0s;
   -webkit-transition: height 1.0s;
@@ -1347,38 +1351,39 @@ textarea, select {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.0em;
   font-weight: 900;
-  line-height: 22px;
+  line-height: 20px;
 }
 .process p:nth-child(2) {
+  line-height: 1.5em;
   /*background-color: rgba(0, 0, 0, 0.1); */
 }
-.process:hover {
+.process:hover, .process:active {
   height: 300px;
   cursor: default;
 }
 #process-cicd {
   top: 15%;
-  left: 5%;
+  left: calc(15vw - 150px);
 }
 #process-ingest {
   top: 65%;
-  left: 17%;
+  left: calc(25vw - 150px);
 }
 #process-analyze {
   top: 7%;
-  left: 40%;
+  left: calc(46vw - 150px);
 }
 #process-intelligence {
   top: 12%;
-  left: 60%;
+  left: calc(66vw - 150px);
 }
 #process-portfolio {
-  top: 80%;
-  left: 45%;
+  top: 83%;
+  left: calc(48vw - 150px);
 }
 #process-aggregation {
   top: 70%;
-  left: 75%;
+  left: calc(78vw - 150px);
 }
 #process-header {
   top: 0;
