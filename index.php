@@ -1,17 +1,17 @@
 <?php include ("security-headers.php") ?>
-<?php $version = "3.4.1"; ?>
+<?php $version = "3.5.0"; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Dependency-Track is an intelligent Software Composition Analysis (SCA) platform that allows organizations to identify and reduce risk from the use of third-party and open source components. Dependency-Track is open-source and distributed under the Apache 2.0 license."/>
-        <meta name="keywords" content="sdlc, devops, devsecops, automation, software, bill of materials, owasp, appsec, security, bom, vulnerabilities, visibility, component analysis, nvd, nist, software security, dependency check, software composition analysis, sca, supply chain risk management, scrm, c-scrm, cybersecurity, node security platform, nsp, vulndb"/>
+        <meta name="description" content="Dependency-Track is an intelligent Software Supply Chain Component Analysis platform that allows organizations to identify and reduce risk from the use of third-party and open source components. Dependency-Track is open-source and distributed under the Apache 2.0 license."/>
+        <meta name="keywords" content="sdlc, devops, devsecops, automation, software, bill of materials, owasp, appsec, security, sbom, bom, vulnerabilities, visibility, component analysis, nvd, nist, software security, dependency check, software composition analysis, sca, supply chain risk management, scrm, c-scrm, cybersecurity, ossindex, vulndb"/>
         <meta name="dcterms.rightsHolder" content="Steve Springett">
         <meta name="dcterms.dateCopyrighted" content="<?php echo date("Y"); ?>">
         <meta name="robots" content="index,follow"/>
-        <title>Dependency-Track | Software Composition Analysis | OWASP</title>
+        <title>Dependency-Track | Supply Chain Component Analysis | OWASP</title>
         <link rel="author" href="https://springett.us/"/>
         <link rel="publisher" href="https://springett.us/"/>
         <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
@@ -76,7 +76,7 @@
         <section class="admin-section video-section hidden-sm hidden-xs">
             <div class="video-container">
                 <div class="video-overlay">
-                    <div id="process-header">Software Supply Chain Analysis at DevOps Speed</div>
+                    <div id="process-header">Supply Chain Security at DevOps Speed</div>
                     <div class="process" id="process-cicd">
                         <p>SBoM Production<br/><i class="fas fa-sort-down"></i></p>
                         <p>CycloneDX Software Bill-of-Materials created during CI/CD or acquired from suppliers</p>
@@ -152,7 +152,7 @@
                             <h2>Platform Features</h2>
                         </div>
                         <div class="col-sm-6">
-                            <p>Dependency-Track is an intelligent Software Composition Analysis (SCA) platform that allows organizations to identify and reduce risk from the use of third-party and open source components.</p>
+                            <p>Dependency-Track is an intelligent Software Supply Chain Component Analysis platform that allows organizations to identify and reduce risk from the use of third-party and open source components.</p>
                         </div>
                     </div>
                 </div>
