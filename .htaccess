@@ -10,3 +10,4 @@ Redirect 302 /download https://github.com/DependencyTrack/dependency-track/relea
 Redirect 302 /github https://github.com/DependencyTrack
 Redirect 302 /glo https://app.gitkraken.com/glo/board/Wyg11jYqEg4AI4OQ
 Redirect 302 /twitter https://twitter.com/DependencyTrack
+Redirect 302 /sponsor https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=paypal%40owasp%2eorg&lc=US&item_name=OWASP%20Dependency-Track&no_note=0&currency_code=USD&bn=PP%2dDonationsBF
