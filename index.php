@@ -78,12 +78,12 @@
                 <div class="video-overlay">
                     <div id="process-header">Supply Chain Security at DevOps Speed</div>
                     <div class="process" id="process-cicd">
-                        <p>SBoM Production<br/><i class="fas fa-sort-down"></i></p>
+                        <p>SBOM Production<br/><i class="fas fa-sort-down"></i></p>
                         <p>CycloneDX Software Bill-of-Materials created during CI/CD or acquired from suppliers</p>
                     </div>
                     <div class="process" id="process-ingest">
-                        <p><i class="fas fa-sort-up"></i><br>SBoM Ingestion</p>
-                        <p>SBoMs published to Dependency-Track via REST, Jenkins plugin, or uploaded through web interface</p>
+                        <p><i class="fas fa-sort-up"></i><br>SBOM Ingestion</p>
+                        <p>SBOMs published to Dependency-Track via REST, Jenkins plugin, or uploaded through web interface</p>
                     </div>
                     <div class="process" id="process-analyze">
                         <p>Dependency-Track<br/><i class="fas fa-sort-down"></i></p>
