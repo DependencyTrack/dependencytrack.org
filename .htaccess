@@ -1,4 +1,4 @@
-Redirect 302 /slack/invite https://join.slack.com/t/owasp/shared_invite/enQtNjExMTc3MTg0MzU4LWQ2Nzg3NGJiZGQ2MjRmNzkzN2Q4YzU1MWYyZTdjYjA2ZTA5M2RkNzE2ZjdkNzI5ZThhOWY5MjljYWZmYmY4ZjM
+Redirect 302 /slack/invite https://owasp-slack.herokuapp.com/
 Redirect 302 /slack https://owasp.slack.com/messages/proj-dependency-track
 Redirect 302 /discussion https://groups.io/g/dependency-track
 Redirect 302 /mailing-list https://groups.io/g/dependency-track
