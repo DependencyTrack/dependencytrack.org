@@ -339,7 +339,7 @@
             <i class="fa fa-chevron-up"></i>
         </div>
 
-        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
         <script src="assets/js/jquery.inview.min.js"></script>
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/jquery.easing.min.js"></script>
