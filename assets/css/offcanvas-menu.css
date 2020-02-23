@@ -9,7 +9,7 @@
     width: 250px;
     height: 100%;
     background: #313131;
-    
+
     transform: translateX(280px);
     transition: .5s;
     z-index: 99999;
@@ -27,7 +27,7 @@
 	line-height: 40px;
 	font-size: 25px;
 	text-align: center;
-	color: #313131;
+	color: #cccccc;
 	cursor: pointer;
 }
 
@@ -46,20 +46,23 @@
     right: 0;
     text-align: right;
     padding: 10px 10px 10px 0;
-	background-color: #d6d6d6;
+	background-color: #1b232f;
     border-radius: 0;
 }
 
 .menu-toggle.sticky::before {
 	content: "";
 	position: absolute;
-    width: 130px;
+    width: 180px;
     height: 40px;
     left: 0;
     right: 0;
     top: 50%;
     margin: -20px auto 0;
-	background: url(../images/logo-m.svg) no-repeat;
+	background-image: url(../images/dt-logo-white-text.svg);
+	background-repeat: no-repeat;
+	background-position: 10px 5px;
+	background-size: 170px;
 }
 
 #offcanvas-menu .close-menu {

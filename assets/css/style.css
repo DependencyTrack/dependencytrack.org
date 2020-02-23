@@ -323,14 +323,14 @@ textarea, select {
       padding: 0;
       margin: 0; }
       .header-section .navbar .navbar-header .navbar-brand img {
-        width: auto;
+        width: 250px;
         padding: 22px 0; }
   .header-section .navbar.sticky {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background-color: #383838;
+    background-color: #1b232f;
     box-shadow: 0 0 20px 0px rgba(64, 64, 64, 0.16);
     padding: 0;
     z-index: 998; }
@@ -353,7 +353,7 @@ textarea, select {
     padding: 0; }
     .header-section .navbar .navbar-collapse .navbar-nav li {
       position: relative;
-      font-size: 16px;
+      font-size: 14px;
       text-transform: uppercase;
       margin-right: 28px; }
       @media (min-width: 992px) and (max-width: 1199px) {
@@ -379,13 +379,15 @@ textarea, select {
   padding: 0 10px;
   margin: 0; }
   .header-section .navbar-header .navbar-brand img {
-    padding: 8px 0; }
+    padding: 13px 0px;
+    width: 170px;
+  }
 
 /* =========================================================
         Top-Section STYLE
 ============================================================ */
 .top-section {
-  background: url(../images/header-bg.jpg) no-repeat center;
+  background-color: #1b232f;
   background-size: cover;
   padding: 220px 0 170px; }
   @media only screen and (max-width: 991px) {
@@ -436,25 +438,11 @@ textarea, select {
       line-height: 20px;
       color: #FFFFFF;
       border: 0;
-      border-radius: 25px;
+      border-radius: 4px;
       padding: 9px 40px;
       margin-top: 15px;
-      background: #ec1346;
-      /* Old browsers */
-      background: -moz-linear-gradient(left, #ec1346 0%, #f2461e 100%, #f2461e 100%, #f2461e 100%, #f2461e 100%);
-      /* FF3.6-15 */
-      background: -webkit-linear-gradient(left, #ec1346 0%, #f2461e 100%, #f2461e 100%, #f2461e 100%, #f2461e 100%);
-      /* Chrome10-25,Safari5.1-6 */
-      background: linear-gradient(to right, #ec1346 0%, #f2461e 100%, #f2461e 100%, #f2461e 100%, #f2461e 100%);
-      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec1346', endColorstr='#f2461e',GradientType=1 );
-      /* IE6-9 */
-      -webkit-transition: 0.5s;
-      -khtml-transition: 0.5s;
-      -moz-transition: 0.5s;
-      -ms-transition: 0.5s;
-      -o-transition: 0.5s;
-      transition: 0.5s; }
+      background: #227DC1;
+    }
     .top-section .wrapper-content .spacer {
       margin-right: 10px;
     }
@@ -737,7 +725,7 @@ textarea, select {
           margin: 0; } }
     .cta-section-four .cta-container .cta-wrapper i {
       font-size: 25px;
-      color: #ee2836; }
+      color: #227DC1; }
       @media only screen and (max-width: 767px) {
         .cta-section-four .cta-container .cta-wrapper i {
           font-size: 20px; } }
@@ -1020,7 +1008,7 @@ textarea, select {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(36, 39, 51, 0.92); }
+    background-color: #283648; }
   .download-section .wrapper-content {
     margin-top: 100px;
     margin-bottom: 100px;}
@@ -1074,7 +1062,7 @@ textarea, select {
 .download-section .social {
   padding: 50px;
   position: relative;
-  background-color: rgba(36, 39, 51, 0.94);
+  background-color: #1b232f;
   color: #ffffff;
   font-size: 110%;
 }
@@ -1319,7 +1307,12 @@ textarea, select {
 }
 @media (min-width: 991px) and (max-width: 1200px) {
   .video-container {
-    padding-top: 40px;
+    padding-top: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .video-container {
+    padding-top: 100px;
   }
 }
 .video-overlay {
@@ -1367,22 +1360,22 @@ textarea, select {
 }
 #process-ingest {
   top: 65%;
-  left: calc(25vw - 150px);
+  left: calc(22vw - 150px);
 }
 #process-analyze {
-  top: 7%;
-  left: calc(46vw - 150px);
+  top: 13%;
+  left: calc(43vw - 150px);
 }
 #process-intelligence {
   top: 12%;
   left: calc(66vw - 150px);
 }
 #process-portfolio {
-  top: 83%;
-  left: calc(48vw - 150px);
+  top: 90%;
+  left: calc(45vw - 150px);
 }
 #process-aggregation {
-  top: 70%;
+  top: 75%;
   left: calc(78vw - 150px);
 }
 #process-header {
@@ -1393,6 +1386,13 @@ textarea, select {
   font-weight: 300;
   font-size: 2em;
   /*color: #f44054; */
-  color: #526494;
+  color: #227DC1;
   width: 100%;
+}
+#particles {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  opacity:0.3;
 }

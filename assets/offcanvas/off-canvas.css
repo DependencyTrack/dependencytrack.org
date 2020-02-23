@@ -10,7 +10,7 @@
   float: right;
   padding: 10px 14px 10px 7px;
   line-height: 1.125em;
-  cursor: pointer; 
+  cursor: pointer;
     border: 2px solid #e03710;}
   .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
     margin-top: 0.188em; }
@@ -80,7 +80,7 @@
   float: left; }
 
 .slicknav_menu {
-  font-size: 16px;
+  font-size: 0.9em;
   box-sizing: border-box;
   background: #4c4c4c;
   padding: 5px; }
@@ -89,7 +89,7 @@
   .slicknav_menu .slicknav_menutxt {
     color: #fff;
     font-weight: bold;
-    text-shadow: 0 1px 3px #000; 
+    text-shadow: 0 1px 3px #000;
     display: none;}
   .slicknav_menu .slicknav_icon-bar {
     background-color: #e03710; }
@@ -153,7 +153,7 @@
   .js #menu {
     display:none;
   }
-  
+
   .js .slicknav_menu {
     display:block;
     position: fixed;

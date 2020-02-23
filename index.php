@@ -7,11 +7,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Dependency-Track is an intelligent Software Supply Chain Component Analysis platform that allows organizations to identify and reduce risk from the use of third-party and open source components. Dependency-Track is open-source and distributed under the Apache 2.0 license."/>
-        <meta name="keywords" content="sdlc, devops, devsecops, automation, software, bill of materials, owasp, appsec, security, sbom, bom, vulnerabilities, visibility, component analysis, nvd, nist, software security, dependency check, software composition analysis, sca, supply chain risk management, scrm, c-scrm, cybersecurity, ossindex, vulndb"/>
+        <meta name="keywords" content="sdlc, devops, devsecops, automation, software, bill of materials, owasp, appsec, security, sbom, bom, vulnerabilities, visibility, component analysis, nvd, nist, software security, software composition analysis, sca, supply chain risk management, scrm, c-scrm, cybersecurity, ossindex, vulndb"/>
         <meta name="dcterms.rightsHolder" content="Steve Springett">
         <meta name="dcterms.dateCopyrighted" content="<?php echo date("Y"); ?>">
         <meta name="robots" content="index,follow"/>
-        <title>Dependency-Track | Supply Chain Component Analysis | OWASP</title>
+        <title>Dependency-Track | Software Bill-of-Materials (SBOM) Analysis | OWASP</title>
         <link rel="author" href="https://springett.us/"/>
         <link rel="publisher" href="https://springett.us/"/>
         <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
@@ -27,14 +27,15 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body class="singlePage" id="page-top" data-spy="scroll" data-target=".navbar">
-
+        <canvas id=particles class=hidden-xs></canvas>
+        <!--
         <a class="github-fork-ribbon" href="https://github.com/DependencyTrack/dependency-track/fork" data-ribbon="Fork me on GitHub">Fork me on GitHub</a>
-
+        -->
         <header id="home" class="header-section">
             <nav class="navbar navbar-inverse hidden-sm hidden-xs">
                 <div class="container">
                     <div class="navbar-header">
-                        <a class="navbar-brand page-scroll" href="#home"><img src="assets/images/logo-greyscale.svg" alt="Dependency-Track Logo"></a>
+                        <a class="navbar-brand page-scroll" href="#home"><img src="assets/images/dt-logo-white-text.svg" alt="Dependency-Track Logo" width="200px"></a>
                     </div>
                     <div class="collapse navbar-collapse navbar-right">
                         <ul class="nav navbar-nav">
@@ -42,17 +43,17 @@
                             <li><a class="page-scroll" href="#features">Platform</a></li>
                             <li><a class="page-scroll" href="#download">Download</a></li>
                             <li><a class="page-scroll" href="https://docs.dependencytrack.org/">Documentation</a></li>
-                            <li><a class="page-scroll" href="https://www.owasp.org/index.php/OWASP_Dependency_Track_Project"><img src="assets/images/logo-owasp-small.svg"></a></li>
+                            <li><a class="page-scroll" href="https://owasp.org/www-project-dependency-track/"><img src="assets/images/logo-owasp-small.svg"></a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
             <div class="navbar-header inline-block visible-sm visible-xs">
-                <a class="navbar-brand" href="#home"><img src="assets/images/logo-m.svg" alt="image"></a>
+                <a class="navbar-brand" href="#home"><img src="assets/images/dt-logo-black-text.svg" alt="image"></a>
             </div>
         </header>
 
-        <section class="top-section">
+        <section class="top-section" id="subheader">
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-sm-9">
@@ -76,7 +77,7 @@
         <section class="admin-section video-section hidden-sm hidden-xs">
             <div class="video-container">
                 <div class="video-overlay">
-                    <div id="process-header">Supply Chain Security at DevOps Speed</div>
+                    <div id="process-header">Software Bill-of-Materials Integrated With DevSecOps</div>
                     <div class="process" id="process-cicd">
                         <p>SBOM Production<br/><i class="fas fa-sort-down"></i></p>
                         <p>CycloneDX Software Bill-of-Materials created during CI/CD or acquired from suppliers</p>
@@ -102,8 +103,8 @@
                         <p>Events delivered via webhooks or chat-ops and findings published to risk management and vulnerability aggregation platforms</p>
                     </div>
                 </div>
-                <video autoplay="autoplay" loop="loop" muted="muted" style="max-width:90%; background-image:url(/assets/video/PFlow2K-cropped-50-20-300-20-v1.0.png);" poster="/assets/video/PFlow2K-cropped-50-20-300-20-v1.0.png" id="processFlowVideo">
-                    <source src="/assets/video/PFlow2K-cropped-50-20-300-20-v1.0.mp4" type="video/mp4">
+                <video autoplay="autoplay" loop="loop" muted="muted" style="max-width:90%;" poster="/assets/video/Process_Flow_2K_cropped.png" id="processFlowVideo">
+                    <source src="/assets/video/Process_Flow_2K_cropped.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
@@ -130,6 +131,7 @@
         </section>
         -->
 
+        <!--
         <section id="screenshots" class="screen-section section-padding">
             <div class="title text-center">
                 <h2>Screenshots</h2>
@@ -143,6 +145,7 @@
                 <div><a href="assets/images/screenshots/license.png"><img src="assets/images/screenshots/license-small.png" alt=""></a></div>
             </div>
         </section>
+        -->
 
         <section id="features" class="cta-section-four section-padding">
             <div class="container">
@@ -299,7 +302,7 @@
                 <div class="title text-center">
                     <a href="https://github.com/DependencyTrack"><i class="fab fa-github social-icon" aria-hidden="true" title="GitHub"></i></a>
                     <a href="https://twitter.com/dependencytrack"><i class="fab fa-twitter social-icon" aria-hidden="true" title="Twitter"></i></a>
-                    <a href="https://www.youtube.com/channel/UC8xdttysl3gNAQYvk1J9Efg"><i class="fab fa-youtube social-icon" aria-hidden="true" title="YouTube"></i></a>
+                    <a href="https://www.youtube.com/c/OWASPDependencyTrack"><i class="fab fa-youtube social-icon" aria-hidden="true" title="YouTube"></i></a>
                     <a href="https://owasp.slack.com/messages/proj-dependency-track"><i class="fab fa-slack-hash social-icon" aria-hidden="true" title="Slack"></i></a>
                     <a href="https://gitter.im/dependency-track/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"><i class="fab fa-gitter social-icon" aria-hidden="true" title="Gitter"></i></a>
                     <a href="https://docs.dependencytrack.org"><i class="fas fa-book social-icon" aria-hidden="true" title="Documentation"></i></a>
@@ -327,7 +330,7 @@
                 <li><a class="page-scroll" href="#features">Platform</a></li>
                 <li><a class="page-scroll" href="#download">Download</a></li>
                 <li><a class="page-scroll" href="https://docs.dependencytrack.org/">Documentation</a></li>
-                <li><a class="page-scroll" href="https://www.owasp.org/index.php/OWASP_Dependency_Track_Project"><img src="assets/images/logo-owasp-small.svg"></a></li>
+                <li><a class="page-scroll" href="https://owasp.org/www-project-dependency-track/"><img src="assets/images/logo-owasp-small.svg"></a></li>
             </ul>
         </div>
         <!-- Off-Canvas View Only -->
@@ -344,6 +347,7 @@
         <script src="assets/slick-slider/slick.min.js"></script>
         <script src="assets/js/lightbox.js"></script>
         <script src="assets/js/script.js"></script>
+        <script src=assets/js/particles.js></script>
 
     </body>
 </html>
