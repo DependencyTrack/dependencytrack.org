@@ -446,6 +446,10 @@ textarea, select {
       margin-top: 15px;
       background: transparent;
     }
+    .top-section .wrapper-content .btn:hover {
+      border-color: #5AAFE9;
+      color: #5AAFE9;
+    }
     .top-section .wrapper-content .spacer {
       margin-right: 10px;
     }
