@@ -303,8 +303,8 @@
                     <a href="https://github.com/DependencyTrack"><i class="fab fa-github social-icon" aria-hidden="true" title="GitHub"></i></a>
                     <a href="https://twitter.com/dependencytrack"><i class="fab fa-twitter social-icon" aria-hidden="true" title="Twitter"></i></a>
                     <a href="https://www.youtube.com/c/OWASPDependencyTrack"><i class="fab fa-youtube social-icon" aria-hidden="true" title="YouTube"></i></a>
+                    <a href="https://groups.io/g/dependency-track"><i class="icon icon--groupsio social-icon" style="font-size:24px" aria-hidden="true" title="Groups.io"></i></a>
                     <a href="https://owasp.slack.com/messages/proj-dependency-track"><i class="fab fa-slack-hash social-icon" aria-hidden="true" title="Slack"></i></a>
-                    <a href="https://gitter.im/dependency-track/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"><i class="fab fa-gitter social-icon" aria-hidden="true" title="Gitter"></i></a>
                     <a href="https://docs.dependencytrack.org"><i class="fas fa-book social-icon" aria-hidden="true" title="Documentation"></i></a>
                 </div>
             </div>
