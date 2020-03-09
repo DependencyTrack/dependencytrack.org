@@ -424,10 +424,10 @@ textarea, select {
     .top-section {
       padding: 60px 0 0; } }
   .top-section .wrapper-content {
-    margin-top: 125px; }
+    margin-top: 80px; }
     @media (min-width: 992px) and (max-width: 1199px) {
       .top-section .wrapper-content {
-        margin-top: 80px; } }
+        margin-top: 30px; } }
     @media only screen and (max-width: 991px) {
       .top-section .wrapper-content {
         margin: 0 0 50px; } }
