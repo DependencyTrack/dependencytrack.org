@@ -330,7 +330,9 @@ textarea, select {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #1b232f;
+    background-image: url("../images/abstract-polygon-1366x768.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     box-shadow: 0 0 20px 0px rgba(64, 64, 64, 0.16);
     padding: 0;
     z-index: 998; }
@@ -387,8 +389,9 @@ textarea, select {
         Top-Section STYLE
 ============================================================ */
 .top-section {
-  background: url("../images/abstract-polygon-1366x768.jpg") no-repeat;
+  background-image: url("../images/abstract-polygon-1366x768.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   padding: 220px 0 170px; }
   @media only screen and (max-width: 991px) {
     .top-section {
