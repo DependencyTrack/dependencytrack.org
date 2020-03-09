@@ -387,7 +387,8 @@ textarea, select {
         Top-Section STYLE
 ============================================================ */
 .top-section {
-  background-color: #1b232f;
+  /*background-color: #1b232f; */
+  background: url("../images/bkg1.jpg") no-repeat;
   background-size: cover;
   padding: 220px 0 170px; }
   @media only screen and (max-width: 991px) {
@@ -441,7 +442,7 @@ textarea, select {
       border-radius: 4px;
       padding: 9px 40px;
       margin-top: 15px;
-      background: #227DC1;
+      background: #3D43AA;
     }
     .top-section .wrapper-content .spacer {
       margin-right: 10px;
