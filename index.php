@@ -87,7 +87,7 @@
                         <p>SBOMs published to Dependency-Track via REST, Jenkins plugin, or uploaded through web interface</p>
                     </div>
                     <div class="process" id="process-analyze">
-                        <p>Dependency-Track<br/><i class="fas fa-sort-down"></i></p>
+                        <p>SBOM Analysis<br/><i class="fas fa-sort-down"></i></p>
                         <p>Analyzes projects for known vulnerabilities, license compliance, and outdated components</p>
                     </div>
                     <div class="process" id="process-intelligence">
