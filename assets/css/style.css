@@ -351,9 +351,7 @@ textarea, select {
     top: 0;
     left: 0;
     right: 0;
-    background-image: url("../images/abstract-polygon-1366x768.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #1b232f;
     box-shadow: 0 0 20px 0px rgba(64, 64, 64, 0.16);
     padding: 0;
     z-index: 998; }
