@@ -67,7 +67,7 @@
                     </div>
                     <div class="col-md-7 col-md-offset-0 col-sm-8 col-sm-offset-0 hidden-xs">
                         <div class="caption wow fadeInRight">
-                            <img src="assets/images/screenshots/dashboard-small.png" alt="">
+                            <img src="assets/images/screenshots/dashboard-small-monitor.png" alt="">
                         </div>
                     </div>
                 </div>
