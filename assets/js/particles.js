@@ -22,8 +22,8 @@ const opts = {
     particleAmount: dynamicParticleAmount(),
     defaultSpeed: .1,
     variantSpeed: 1.2,
-    defaultRadius: 2,
-    variantRadius: 2,
+    defaultRadius: 0,
+    variantRadius: 0,
     linkRadius: 200,
 };
 
