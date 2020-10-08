@@ -1422,3 +1422,23 @@ textarea, select {
   width:100%;
   opacity:0.3;
 }
+.monitor-container {
+  position: relative;
+}
+.overlay {
+  float: left;
+  position: absolute;
+  left: 42%;
+  top: 24%;
+  z-index: 1000;
+}
+.btn-play {
+  width: 90px;
+  height: 90px;
+  padding: 20px 14px 20px 20px;
+  border-radius: 20px;
+  font-size: 4.5rem;
+  text-align: center;
+  background: transparent;
+  opacity: 0.7;
+}

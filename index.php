@@ -66,8 +66,13 @@
                         </div>
                     </div>
                     <div class="col-md-7 col-md-offset-0 col-sm-8 col-sm-offset-0 hidden-xs">
-                        <div class="caption wow fadeInRight">
+                        <div class="caption wow fadeInRight monitor-container">
                             <img src="assets/images/screenshots/dashboard-small-monitor.png" alt="">
+                            <!--
+                            <div id="lightBox" class="caption wow fadeInRight overlay v-text">
+                                <a href="http://youtu.be/cQuk6jKTrTs" data-poptrox="youtube,800x480"><button class="btn btn-default btn-play"><i class="fa fa-play" aria-hidden="true"></i></button></a>
+                            </div>
+                            -->
                         </div>
                     </div>
                 </div>
