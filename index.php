@@ -27,7 +27,6 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body class="singlePage" id="page-top" data-spy="scroll" data-target=".navbar">
-        <canvas id=particles class=hidden-xs></canvas>
         <!--
         <a class="github-fork-ribbon" href="https://github.com/DependencyTrack/dependency-track/fork" data-ribbon="Fork me on GitHub">Fork me on GitHub</a>
         -->
@@ -315,7 +314,6 @@
         <script src="assets/slick-slider/slick.min.js"></script>
         <script src="assets/js/lightbox.js"></script>
         <script src="assets/js/script.js"></script>
-        <script src=assets/js/particles.js></script>
 
     </body>
 </html>
