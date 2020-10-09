@@ -11,7 +11,7 @@
         <meta name="dcterms.rightsHolder" content="Steve Springett">
         <meta name="dcterms.dateCopyrighted" content="<?php echo date("Y"); ?>">
         <meta name="robots" content="index,follow"/>
-        <title>Dependency-Track | Software Bill-of-Materials (SBOM) Analysis | OWASP</title>
+        <title>Dependency-Track | Software Bill of Materials (SBOM) Analysis | OWASP</title>
         <link rel="author" href="https://springett.us/"/>
         <link rel="publisher" href="https://springett.us/"/>
         <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
@@ -63,16 +63,16 @@
                             <a class="page-scroll" href="#download">
                                 <button class="btn btn-default">Download v<?php echo $version; ?> <i class="fas fa-download" aria-hidden="true"></i></button>
                             </a>
+                            <span id="lightBox" class="hidden-xs hidden-sm hidden-md v-text">
+                                <a href="http://youtu.be/cQuk6jKTrTs" data-poptrox="youtube,800x450">
+                                    <button class="btn btn-default">Watch Trailer <i class="fa fa-play" aria-hidden="true"></i></button>
+                                </a>
+                            </span>
                         </div>
                     </div>
                     <div class="col-md-7 col-md-offset-0 col-sm-8 col-sm-offset-0 hidden-xs">
                         <div class="caption wow fadeInRight monitor-container">
                             <img src="assets/images/screenshots/dashboard-small-monitor.png" alt="">
-                            <!--
-                            <div id="lightBox" class="caption wow fadeInRight overlay v-text">
-                                <a href="http://youtu.be/cQuk6jKTrTs" data-poptrox="youtube,800x480"><button class="btn btn-default btn-play"><i class="fa fa-play" aria-hidden="true"></i></button></a>
-                            </div>
-                            -->
                         </div>
                     </div>
                 </div>
@@ -114,43 +114,6 @@
                 </video>
             </div>
         </section>
-
-        <!--
-        <section id="overview" class="admin-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-sm-7">
-                        <div class="screenshot-lightbox caption wow fadeInLeft" data-wow-duration="1s"><a href="assets/images/screenshots/dashboard.png"><img src="assets/images/screenshots/dashboard-small.png" alt=""></a></div>
-                    </div>
-                    <div class="col-md-3 col-md-offset-1 col-sm-5">
-                        <div  class="right-bar">
-                            <h3>Discover how third-party components introduce risk</h3>
-                            <div id="lightBox" class="v-text">
-                                <a href="http://youtu.be/zlruKS4VsWQ" data-poptrox="youtube,800x480"><i class="fa fa-play" aria-hidden="true"></i> Watch how it works</a>
-                            </div>
-                            <p>Continuous analysis of third-party and open source components provides greater visibility on inherited risk.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        -->
-
-        <!--
-        <section id="screenshots" class="screen-section section-padding">
-            <div class="title text-center">
-                <h2>Screenshots</h2>
-            </div>
-            <div class="screenshot-lightbox screen-carousel text-center">
-                <div><a href="assets/images/screenshots/components.png"><img src="assets/images/screenshots/components-small.png" alt=""></a></div>
-                <div><a href="assets/images/screenshots/projects.png"><img src="assets/images/screenshots/projects-small.png" alt=""></a></div>
-                <div><a href="assets/images/screenshots/vulnerabilities.png"><img src="assets/images/screenshots/vulnerabilities-small.png" alt=""></a></div>
-                <div><a href="assets/images/screenshots/vulnerability.png"><img src="assets/images/screenshots/vulnerability-small.png" alt=""></a></div>
-                <div><a href="assets/images/screenshots/vulnerable-component.png"><img src="assets/images/screenshots/vulnerable-component-small.png" alt=""></a></div>
-                <div><a href="assets/images/screenshots/license.png"><img src="assets/images/screenshots/license-small.png" alt=""></a></div>
-            </div>
-        </section>
-        -->
 
         <section id="features" class="cta-section-four section-padding">
             <div class="container">
