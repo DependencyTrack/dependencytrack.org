@@ -63,7 +63,7 @@
                                 <button class="btn btn-default">Download v<?php echo $version; ?> <i class="fas fa-download" aria-hidden="true"></i></button>
                             </a>
                             <span id="lightBox" class="hidden-xs hidden-sm hidden-md v-text">
-                                <a href="http://youtu.be/cQuk6jKTrTs" data-poptrox="youtube,800x450">
+                                <a href="http://youtu.be/cQuk6jKTrTs" data-poptrox="youtube,800x450,autoplay=1">
                                     <button class="btn btn-default">Watch Trailer <i class="fa fa-play" aria-hidden="true"></i></button>
                                 </a>
                             </span>
