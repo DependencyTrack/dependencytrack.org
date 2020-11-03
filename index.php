@@ -10,6 +10,19 @@
         <meta name="keywords" content="sdlc, devops, devsecops, automation, software, bill of materials, owasp, appsec, security, sbom, bom, vulnerabilities, visibility, component analysis, nvd, nist, software security, software composition analysis, sca, supply chain risk management, scrm, c-scrm, cybersecurity, ossindex, vulndb"/>
         <meta name="dcterms.rightsHolder" content="Steve Springett">
         <meta name="dcterms.dateCopyrighted" content="<?php echo date("Y"); ?>">
+
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:site" content="@DependencyTrack">
+        <meta name="twitter:title" content="Dependency-Track | Software Bill of Materials (SBOM) Analysis">
+        <meta name="twitter:image" content="https://dependencytrack.org/assets/images/twitter-card.png">
+        <meta name="twitter:description" content="Dependency-Track is an intelligent Software Supply Chain Component Analysis platform that allows organizations to identify and reduce risk from the use of third-party and open source components. Dependency-Track is open-source and distributed under the Apache 2.0 license.">
+
+        <meta property="og:title" content="Dependency-Track | Software Bill of Materials (SBOM) Analysis">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://dependencytrack.org/assets/images/twitter-card.png" />
+        <meta property="og:description" content="Dependency-Track is an intelligent Software Supply Chain Component Analysis platform that allows organizations to identify and reduce risk from the use of third-party and open source components. Dependency-Track is open-source and distributed under the Apache 2.0 license.">
+
         <meta name="robots" content="index,follow"/>
         <title>Dependency-Track | Software Bill of Materials (SBOM) Analysis | OWASP</title>
         <link rel="author" href="https://springett.us/"/>
@@ -240,6 +253,8 @@
                     <div class="item"><a href="https://software.microfocus.com/en-us/solutions/application-security"><img src="assets/images/integrations/logo-fortify.svg" alt="image"></a></div>
                     <!-- <div class="item"><a href="https://www.atlassian.com/software/jira"><img src="assets/images/integrations/logo-jira.svg" alt="image"></a></div> -->
                     <div class="item"><a href="https://microsoft.com/teams"><img src="assets/images/integrations/logo-teams.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://www.defectdojo.org/"><img src="assets/images/integrations/logo-defect-dojo.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://www.securitycompass.com/"><img src="assets/images/integrations/logo-security-compass.svg" alt="image"></a></div>
                 </div>
             </div>
         </section>
