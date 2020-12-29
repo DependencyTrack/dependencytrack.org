@@ -214,7 +214,7 @@
                             <div class="col-md-6 col-xs-12">
                                 <div class="wrapper-content">
                                     <h3>Measure and enforce policy compliance</h3>
-                                    <p>Security, operational, and license policies ensure that associated risk is quickly identified across development teams, suppliers, and partners in the supply chain.</p>
+                                    <p>Security, operational, and license policies ensure that associated risk is quickly identified across development teams, suppliers, and partners in the supply chain</p>
                                 </div>
                             </div>
                             <div class="col-md-6 hidden-sm hidden-xs">
