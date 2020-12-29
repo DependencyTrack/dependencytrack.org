@@ -351,7 +351,7 @@ textarea, select {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #1b232f;
+    background-color: #1F2536;
     box-shadow: 0 0 20px 0px rgba(64, 64, 64, 0.16);
     padding: 0;
     z-index: 998; }
@@ -408,7 +408,7 @@ textarea, select {
         Top-Section STYLE
 ============================================================ */
 .top-section {
-  background-image: url("../images/abstract-polygon-1366x768.jpg");
+  background-image: url("../images/abstract-polygon-dark-1366x768.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 220px 0 170px; }
@@ -552,6 +552,63 @@ textarea, select {
         @media only screen and (max-width: 479px) {
           .feature-section .feature-container .feature-wrapper p {
             font-size: 14px; } }
+
+/* =========================================================
+        Working-Section STYLE
+============================================================ */
+.working-section-two {
+  padding: 25px 0 10px; }
+@media only screen and (max-width: 991px) {
+  .working-section-two {
+    padding: 40px 0; } }
+@media only screen and (max-width: 767px) {
+  .working-section-two {
+    padding: 30px 0 35px; } }
+@media only screen and (max-width: 479px) {
+  .working-section-two {
+    padding: 10px 0 35px; } }
+.working-section-two .working-container .working-wrapper {
+  margin-bottom: 85px;
+  padding-top: 70px; }
+@media only screen and (max-width: 991px) {
+  .working-section-two .working-container .working-wrapper {
+    margin-bottom: 0;
+    padding-top: 20px; }
+  .working-section-two .working-container .working-wrapper:first-child .wrapper-content {
+    margin-top: 0; } }
+.working-section-two .working-container .wrapper-content {
+  margin-top: 50px; }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .working-section-two .working-container .wrapper-content {
+    margin-top: 0; } }
+@media only screen and (max-width: 991px) {
+  .working-section-two .working-container .wrapper-content {
+    margin: 30px 0 50px; } }
+@media only screen and (max-width: 767px) {
+  .working-section-two .working-container .wrapper-content {
+    margin: 30px 0 50px; } }
+@media only screen and (max-width: 479px) {
+  .working-section-two .working-container .wrapper-content {
+    margin: 30px 0 35px; } }
+.working-section-two .working-container .wrapper-content h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px; }
+.working-section-two .working-container .wrapper-content h3 a {
+  color: #222222; }
+.working-section-two .working-container .wrapper-content h3 a:hover {
+  color: #089af7; }
+@media only screen and (max-width: 767px) {
+  .working-section-two .working-container .wrapper-content h3 {
+    margin-bottom: 10px; } }
+@media only screen and (max-width: 479px) {
+  .working-section-two .working-container .wrapper-content h3 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px; } }
+.working-section-two .working-container .wrapper-content p {
+  color: #555555; }
+.working-section-two .working-container .caption img {
+  max-width: 100%; float: right}
 
 /* =========================================================
         CTA-Section STYLE
@@ -740,10 +797,10 @@ textarea, select {
     @media only screen and (max-width: 767px) {
       .cta-section-four .cta-container {
         margin-top: 30px; } }
-    .cta-section-four .cta-container .first-row {
+    .cta-section-four .cta-container .feature-row {
       margin-bottom: 35px; }
       @media only screen and (max-width: 767px) {
-        .cta-section-four .cta-container .first-row {
+        .cta-section-four .cta-container .feature-row {
           margin-bottom: 0; } }
     @media only screen and (max-width: 767px) {
       .cta-section-four .cta-container .cta-wrapper {
@@ -769,6 +826,10 @@ textarea, select {
           margin: 8px 0; } }
     .cta-section-four .cta-container .cta-wrapper p {
       color: #8b919d; }
+
+.cta-section .cta-wrapper h3 {
+  color: #227DC1;
+}
 
 .cta-section-five {
   background-color: #242733;
@@ -1026,7 +1087,16 @@ textarea, select {
 /* =========================================================
         download-section STYLE
 ============================================================ */
+.section-header-correction {
+  display: block;
+  height: 88px;      /* Give height of your fixed element */
+  margin-top: -88px; /* Give negative margin of your fixed element */
+  padding: 0;
+}
 .download-section {
+  background-image: url("../images/abstract-polygon-dark-1366x768.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;}
   .download-section::before {
     content: "";
@@ -1035,7 +1105,7 @@ textarea, select {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #195B8D; }
+}
   .download-section .wrapper-content {
     margin-top: 100px;
     margin-bottom: 100px;}
@@ -1089,9 +1159,20 @@ textarea, select {
 .download-section .social {
   padding: 50px;
   position: relative;
-  background-color: #0F3958;
+  /* background-color: #212733; */
+  background: rgba(33, 39, 51, 0.6);
   color: #ffffff;
   font-size: 110%;
+}
+
+pre {
+  /* background-color: #212733; */
+  background: rgba(33, 39, 51, 0.5);
+  font-size: 1.1em;
+  color: #ffffff;
+  padding: 1em;
+  border: 1px solid #426B89;
+  border-radius: 0;
 }
 
 /* =========================================================
@@ -1416,13 +1497,6 @@ textarea, select {
   color: #227DC1;
   width: 100%;
 }
-#particles {
-  position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  opacity:0.3;
-}
 .monitor-container {
   position: relative;
 }
@@ -1442,4 +1516,85 @@ textarea, select {
   text-align: center;
   background: transparent;
   opacity: 0.7;
+}
+
+.code-example-tab>input,.code-example-tab>section>div{
+  display:none
+}
+.code-example-tab{
+  width:100%
+}
+.code-example-tab ul{
+  list-style:none;
+  margin:0;
+  padding:0
+}
+.code-example-tab ul li label{
+  float:left;
+  padding:5px 15px;
+  border:1px solid #426B89;
+  border-bottom:0;
+  color:#c0c0c0;
+  margin-bottom: 0;
+}
+.code-example-tab ul li label:hover{
+  background:#1F2536;
+}
+.code-example-tab ul li label:active{
+  background:#071525;
+}
+.code-example-tab ul li:not(:last-child) label{
+  border-right-width:0
+}
+.code-example-tab section{
+  clear:both
+}
+.code-example-tab section div{
+  padding:0;
+  width:100%;
+  border:0;
+  line-height:1.5em;
+  letter-spacing:.3px;
+  color:#444
+}
+.code-example-tab section div h2{
+  margin:0;
+  letter-spacing:1px;
+  color:#34495e
+}
+
+
+#tab1:checked~section .tab1,#tab2:checked~section .tab2,#tab3:checked~section .tab3,#tab4:checked~section .tab4,#tab5:checked~section .tab5,#tab6:checked~section .tab6,#tab7:checked~section .tab7,#tab8:checked~section .tab8,#tab9:checked~section .tab9,#tab10:checked~section .tab10{
+  display:block
+}
+#tab1:checked~nav .tab1,#tab2:checked~nav .tab2,#tab3:checked~nav .tab3,#tab4:checked~nav .tab4,#tab5:checked~nav .tab5,#tab6:checked~nav .tab6,#tab7:checked~nav .tab7,#tab8:checked~nav .tab8,#tab9:checked~nav .tab9,#tab10:checked~nav .tab10{
+  color:red
+}
+#tab1:checked~nav .tab1 label,#tab2:checked~nav .tab2 label,#tab3:checked~nav .tab3 label,#tab4:checked~nav .tab4 label,#tab5:checked~nav .tab5 label,#tab6:checked~nav .tab6 label,#tab7:checked~nav .tab7 label,#tab8:checked~nav .tab8 label,#tab9:checked~nav .tab9 label,#tab10:checked~nav .tab10 label{
+  color:#111;
+  position:relative
+}
+#tab1:checked~nav .tab1 label:after,#tab2:checked~nav .tab2 label:after,#tab3:checked~nav .tab3 label:after,#tab4:checked~nav .tab4 label:after,#tab5:checked~nav .tab5 label:after,#tab6:checked~nav .tab6 label:after,#tab7:checked~nav .tab7 label:after,#tab8:checked~nav .tab8 label:after,#tab9:checked~nav .tab9 label:after,#tab10:checked~nav .tab10 label:after{
+  content:'';
+  display:block;
+  position:absolute;
+  height:2px;
+  width:100%;
+  background:#071525;
+  left:0;
+  bottom:-1px
+}
+.code-example-tab>input,.code-example-tab>section>div{
+  display:none
+}
+.inputtab1:checked~section .tab1,.inputtab2:checked~section .tab2,.inputtab3:checked~section .tab3,.inputtab4:checked~section .tab4{
+  display:block
+}
+.inputtab1:checked~nav .tab1,.inputtab2:checked~nav .tab2,.inputtab3:checked~nav .tab3,.inputtab4:checked~nav .tab4{
+  color:red
+}
+.inputtab1:checked~nav .tab1 label,.inputtab2:checked~nav .tab2 label,.inputtab3:checked~nav .tab3 label,.inputtab4:checked~nav .tab4 label{
+  color:#ffffff;
+  background: #426B89;
+  position:relative
 }

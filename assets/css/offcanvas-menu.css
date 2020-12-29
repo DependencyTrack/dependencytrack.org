@@ -8,7 +8,7 @@
     right: 0;
     width: 250px;
     height: 100%;
-    background: #313131;
+    background: #1F2536;
 
     transform: translateX(280px);
     transition: .5s;
@@ -80,7 +80,7 @@
 	border-radius: 50%;
 	cursor: pointer;
 	color: #ffffff;
-	background-color: #8e8b81;
+	background-color: #435273;
 }
 
 #offcanvas-menu .menu-wrapper li a{
