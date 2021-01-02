@@ -1598,3 +1598,13 @@ pre {
   background: #426B89;
   position:relative
 }
+/* Used to colorize icons to match target color of: #227DC1
+   Calculated from: https://codepen.io/sosuke/pen/Pjoqqp
+ */
+.colorize-primary {
+  filter: invert(38%) sepia(98%) saturate(414%) hue-rotate(162deg) brightness(96%) contrast(96%);
+}
+.feature-icon {
+  height: 24px;
+  max-height: 24px;
+}
