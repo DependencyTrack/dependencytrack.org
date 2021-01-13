@@ -408,6 +408,7 @@ textarea, select {
         Top-Section STYLE
 ============================================================ */
 .top-section {
+  background-color: #1F2536;
   background-image: url("../images/abstract-polygon-dark-1366x768.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1094,6 +1095,7 @@ textarea, select {
   padding: 0;
 }
 .download-section {
+  background-color: #1F2536;
   background-image: url("../images/abstract-polygon-dark-1366x768.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1279,9 +1281,11 @@ pre {
         singlePage STYLE
 ============================================================ */
 .singlePage .header-section .navbar .navbar-collapse .navbar-nav li a:hover {
-  color: #ee2836; }
+  color: #ee2836; 
+  background-color: #1f2536; }
 .singlePage .header-section .navbar .navbar-collapse .navbar-nav li.active a {
-  color: #ee2836; }
+  color: #ee2836;
+  background-color: #1f2536; }
 .singlePage .testimonial-section-two {
   padding: 120px 0; }
   @media only screen and (max-width: 991px) {
