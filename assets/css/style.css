@@ -1281,11 +1281,9 @@ pre {
         singlePage STYLE
 ============================================================ */
 .singlePage .header-section .navbar .navbar-collapse .navbar-nav li a:hover {
-  color: #ee2836; 
-  background-color: #1f2536; }
+  color: #ee2836; }
 .singlePage .header-section .navbar .navbar-collapse .navbar-nav li.active a {
-  color: #ee2836;
-  background-color: #1f2536; }
+  color: #ee2836; }
 .singlePage .testimonial-section-two {
   padding: 120px 0; }
   @media only screen and (max-width: 991px) {
