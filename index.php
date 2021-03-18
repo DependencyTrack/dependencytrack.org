@@ -170,7 +170,7 @@
                             <div class="col-md-6 col-xs-12">
                                 <div class="wrapper-content">
                                     <h3>Accurate and complete full-stack inventory</h3>
-                                    <p>Track usage of libraries and frameworks, applications, containers, operating systems, firmware, and hardware across all projects in the Dependency-Track portfolio. Get full-stack traceability for the cloud, for the enterprise, for smart devices, and for IoT.</p>
+                                    <p>Track usage of libraries and frameworks, applications, containers, operating systems, firmware, hardware, and services across all projects in the Dependency-Track portfolio. Get full-stack traceability for the cloud, for the enterprise, for smart devices, and for IoT.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 hidden-sm hidden-xs">
@@ -286,7 +286,7 @@
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
                                 <h3><i class="fas fa-layer-group" aria-hidden="true"></i> <span class="feature">Full-Stack Inventory</span></h3>
-                                <p>Tracks usage of libraries, frameworks, applications, containers, operating systems, firmware, and hardware.</p>
+                                <p>Tracks usage of libraries, frameworks, applications, containers, operating systems, firmware, hardware, and services.</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
