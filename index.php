@@ -1,5 +1,5 @@
 <?php include ("security-headers.php") ?>
-<?php $version = "4.1.0"; ?>
+<?php $version = "4.2.0"; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
