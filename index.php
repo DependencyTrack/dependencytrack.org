@@ -292,7 +292,7 @@
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
                                 <h3><i class="fas fa-archive" aria-hidden="true"></i> <span class="feature">Bill of Materials (BOM)</span></h3>
-                                <p>Consumes, analyzes, and produces industry standard Software Bill of Materials formats including CycloneDX and SPDX</p>
+                                <p>Consumes, analyzes, and produces CycloneDX Software Bill of Materials (SBOM), an open source industry standard.</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
