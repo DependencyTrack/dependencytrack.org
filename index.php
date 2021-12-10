@@ -71,7 +71,7 @@
                     <div class="col-md-5 col-sm-9">
                         <div class="wrapper-content">
                             <span class="small-text"><span class="color-text">Reduce </span> Supply Chain Risk</span>
-                            <h3>Continuous Component Analysis Platform</h3>
+                            <h3>Continuous SBOM Analysis Platform</h3>
                             <a class="page-scroll" href="#download">
                                 <button class="btn btn-default">Download v<?php echo $version; ?> <i class="fas fa-download" aria-hidden="true"></i></button>
                             </a>
@@ -84,7 +84,7 @@
                     </div>
                     <div class="col-md-7 col-md-offset-0 col-sm-8 col-sm-offset-0 hidden-xs">
                         <div class="caption wow fadeInRight monitor-container">
-                            <img src="assets/images/screenshots/dashboard-small-monitor.png" alt="">
+                            <img src="assets/images/screenshots/dashboard-small-monitor-shadow.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
         <section class="admin-section video-section hidden-sm hidden-xs">
             <div class="video-container">
                 <div class="video-overlay">
-                    <div id="process-header">Software Bill of Materials Integrated With DevSecOps</div>
+                    <div id="process-header">Operationalize Software Bill of Materials</div>
                     <div class="process" id="process-cicd">
                         <p>SBOM Production<br/><i class="fas fa-sort-down"></i></p>
                         <p>CycloneDX Software Bill of Materials created during CI/CD or acquired from suppliers</p>
