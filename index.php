@@ -324,14 +324,18 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-4">
+                            <div class="cta-wrapper">
+                                <h3><i class="fas fa-exchange-alt" aria-hidden="true"></i> <span class="feature">VEX</span></h3>
+                                <p>CycloneDX Vulnerability Exploitability Exchange (VEX) communicates security risk to software consumers.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
                         </div>
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
                                 <h3><i class="fab fa-osi" aria-hidden="true"></i> <span class="feature">Open Source</span></h3>
                                 <p>Community-driven project distributed under the Apache 2.0 license <i class="icon-apache"></i>Large and active community of contributors and adopters.</p>
                             </div>
-                        </div>
-                        <div class="col-sm-4">
                         </div>
                     </div>
                 </div>
