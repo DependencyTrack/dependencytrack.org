@@ -408,9 +408,9 @@ textarea, select {
         Top-Section STYLE
 ============================================================ */
 .top-section {
-  background-color: #1F2536;
-  background-image: url("../images/abstract-polygon-dark-1366x768.jpg");
-  background-size: cover;
+  background-color: #1C2940;
+  background-image: url("../images/background.png");
+  background-size: contain;
   background-repeat: no-repeat;
   padding: 220px 0 170px; }
   @media only screen and (max-width: 991px) {
