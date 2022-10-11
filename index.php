@@ -66,25 +66,27 @@
         </header>
 
         <section class="top-section" id="subheader">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 col-sm-9">
-                        <div class="wrapper-content">
-                            <span class="small-text"><span class="color-text">Reduce </span> Supply Chain Risk</span>
-                            <h3>Continuous SBOM Analysis Platform</h3>
-                            <a class="page-scroll" href="#download">
-                                <button class="btn btn-default">Download v<?php echo $version; ?> <i class="fas fa-download" aria-hidden="true"></i></button>
-                            </a>
-                            <span id="lightBox" class="hidden-xs hidden-sm hidden-md v-text">
+            <div class="outer-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-9">
+                            <div class="wrapper-content">
+                                <span class="small-text"><span class="color-text">Reduce </span> Supply Chain Risk</span>
+                                <h3>Continuous SBOM Analysis Platform</h3>
+                                <a class="page-scroll" href="#download">
+                                    <button class="btn btn-default">Download v<?php echo $version; ?> <i class="fas fa-download" aria-hidden="true"></i></button>
+                                </a>
+                                <span id="lightBox" class="hidden-xs hidden-sm hidden-md v-text">
                                 <a href="http://youtu.be/cQuk6jKTrTs" data-poptrox="youtube,800x450,autoplay=1">
                                     <button class="btn btn-default">Watch Trailer <i class="fa fa-play" aria-hidden="true"></i></button>
                                 </a>
                             </span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-7 col-md-offset-0 col-sm-8 col-sm-offset-0 hidden-xs">
-                        <div class="caption wow fadeInRight monitor-container">
-                            <img src="assets/images/screenshots/dashboard-small-monitor-shadow.png" alt="">
+                        <div class="col-md-7 col-md-offset-0 col-sm-8 col-sm-offset-0 hidden-xs">
+                            <div class="caption wow fadeInRight monitor-container">
+                                <img src="assets/images/screenshots/dashboard-small-monitor-shadow.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
