@@ -39,6 +39,13 @@
         <link rel="stylesheet" type="text/css" href="assets/css/gh-fork-ribbon.css"/>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YEM8P7DQTM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YEM8P7DQTM');
+    </script>
     <body class="singlePage" id="page-top" data-spy="scroll" data-target=".navbar">
         <!--
         <a class="github-fork-ribbon" href="https://github.com/DependencyTrack/dependency-track/fork" data-ribbon="Fork me on GitHub">Fork me on GitHub</a>
