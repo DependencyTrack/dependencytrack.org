@@ -4,26 +4,24 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain. Dependency-Track is open-source and distributed under the Apache 2.0 license."/>
-        <meta name="keywords" content="sdlc, devops, devsecops, automation, software, bill of materials, owasp, appsec, security, sbom, bom, vulnerabilities, visibility, component analysis, nvd, nist, software security, software composition analysis, sca, supply chain risk management, scrm, c-scrm, cybersecurity, ossindex, vulndb"/>
+        <meta name="description" content="Dependency-Track is a continuous SBOM analysis platform that allows organizations to identify and reduce risk in the software supply chain. Dependency-Track is open-source and distributed under the Apache 2.0 license."/>
+        <meta name="keywords" content="sdlc, devops, devsecops, bill of materials, owasp, appsec, security, BOM, SBOM, SaaSBOM, HBOM, OBOM, VDR, VEX, visibility, component analysis, nvd, nist, software security, software composition analysis, sca, supply chain risk management, scrm, c-scrm, cybersecurity, ossindex, vulndb"/>
         <meta name="dcterms.rightsHolder" content="Steve Springett">
 
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:site" content="@DependencyTrack">
         <meta name="twitter:title" content="Dependency-Track | Software Bill of Materials (SBOM) Analysis">
         <meta name="twitter:image" content="https://dependencytrack.org/assets/images/twitter-card.png">
-        <meta name="twitter:description" content="Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain. Dependency-Track is open-source and distributed under the Apache 2.0 license.">
+        <meta name="twitter:description" content="Dependency-Track is a continuous SBOM analysis platform that allows organizations to identify and reduce risk in the software supply chain. Dependency-Track is open-source and distributed under the Apache 2.0 license.">
 
         <meta property="og:title" content="Dependency-Track | Software Bill of Materials (SBOM) Analysis">
         <meta property="og:locale" content="en_US">
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://dependencytrack.org/assets/images/twitter-card.png" />
-        <meta property="og:description" content="Dependency-Track is an intelligent Component Analysis platform that allows organizations to identify and reduce risk in the software supply chain. Dependency-Track is open-source and distributed under the Apache 2.0 license.">
+        <meta property="og:description" content="Dependency-Track is a continuous SBOM analysis platform that allows organizations to identify and reduce risk in the software supply chain. Dependency-Track is open-source and distributed under the Apache 2.0 license.">
 
         <meta name="robots" content="index,follow"/>
         <title>Dependency-Track | Software Bill of Materials (SBOM) Analysis | OWASP</title>
-        <link rel="author" href="https://springett.us/"/>
-        <link rel="publisher" href="https://springett.us/"/>
         <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/>
         <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
@@ -33,7 +31,6 @@
         <link rel="stylesheet" type="text/css" href="assets/slick-slider/slick.css">
         <link rel="stylesheet" type="text/css" href="assets/slick-slider/slick-theme.css">
         <link rel="stylesheet" type="text/css" href="assets/css/offcanvas-menu.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/gh-fork-ribbon.css"/>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YEM8P7DQTM"></script>
@@ -44,9 +41,6 @@
       gtag('config', 'G-YEM8P7DQTM');
     </script>
     <body class="singlePage" id="page-top" data-spy="scroll" data-target=".navbar">
-        <!--
-        <a class="github-fork-ribbon" href="https://github.com/DependencyTrack/dependency-track/fork" data-ribbon="Fork me on GitHub">Fork me on GitHub</a>
-        -->
         <header id="home" class="header-section">
             <nav class="navbar navbar-inverse hidden-sm hidden-xs">
                 <div class="container">
@@ -65,7 +59,7 @@
                 </div>
             </nav>
             <div class="navbar-header inline-block visible-sm visible-xs">
-                <a class="navbar-brand" href="#home"><img src="assets/images/dt-logo-black-text.svg" alt="image"></a>
+                <a class="navbar-brand" href="#home"><img src="assets/images/dt-logo.svg" alt="image"></a>
             </div>
         </header>
 
@@ -80,11 +74,6 @@
                                 <a class="page-scroll" href="#download">
                                     <button class="btn btn-default">Download v4.7 <i class="fas fa-download" aria-hidden="true"></i></button>
                                 </a>
-                                <span id="lightBox" class="hidden-xs hidden-sm hidden-md v-text">
-                                <a href="http://youtu.be/cQuk6jKTrTs" data-poptrox="youtube,800x450,autoplay=1">
-                                    <button class="btn btn-default">Watch Trailer <i class="fa fa-play" aria-hidden="true"></i></button>
-                                </a>
-                            </span>
                             </div>
                         </div>
                         <div class="col-md-7 col-md-offset-0 col-sm-8 col-sm-offset-0 hidden-xs">
@@ -141,7 +130,7 @@
                             <img src="assets/images/icons/continuous-integration.svg" height="70" alt="">
                             <h3 class="feature-header">Continuous Integration</h3>
                             <p>Consume and analyze SBOMs at high-velocity. Ideal for use with modern build pipelines.</p>
-                        </div> <!-- cta-wrapper -->
+                        </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6">
@@ -149,7 +138,7 @@
                             <img src="assets/images/icons/continuous-visibility.svg" height="70" alt="">
                             <h3>Continuous Insight</h3>
                             <p>Identify risk across all assets and applications. Quickly answer what is affected and where.</p>
-                        </div> <!-- cta-wrapper -->
+                        </div>
                     </div>
 
                     <div class="col-md-4 col-md-offset-0  col-sm-6 col-sm-offset-3">
@@ -157,7 +146,7 @@
                             <img src="assets/images/icons/continuous-transparency.svg" height="70" alt="">
                             <h3>Continuous Transparency</h3>
                             <p>Full-stack component inventory. Optionally republish SBOMs to others in the supply chain.</p>
-                        </div> <!-- cta-wrapper -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -185,7 +174,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div> <!-- working-wrapper -->
+                    </div>
 
 
                     <div class="working-wrapper">
@@ -198,7 +187,7 @@
                             <div class="col-md-6 col-xs-12">
                                 <div class="wrapper-content">
                                     <h3>Identify and remediate vulnerable components</h3>
-                                    <p>Bring vulnerable components to light with support for multiple sources of vulnerability intelligence including the National Vulnerability Database (NVD), Sonatype OSS Index, NPM Advisories, and VulnDB from Risk Based Security.</p>
+                                    <p>Bring vulnerable components to light with support for multiple sources of vulnerability intelligence including the National Vulnerability Database (NVD), Sonatype OSS Index, GitHub Advisories, Snyk, OSV, and VulnDB from Risk Based Security.</p>
                                 </div>
                             </div>
                             <div class="col-md-6 hidden-sm hidden-xs">
@@ -207,14 +196,14 @@
                                 </div>
                             </div>
                         </div>
-                    </div> <!-- working-wrapper -->
+                    </div>
 
 
                     <div class="working-wrapper">
                         <div class="row">
                             <div class="col-xs-12 visible-sm visible-xs">
                                 <div class="caption">
-                                    <img src="assets/images/screenshots/dashboard-small.png" width="500" alt="">
+                                    <img src="assets/images/screenshots/policy-violations.png" width="500" alt="">
                                 </div>
                             </div>
                             <div class="col-md-6 col-xs-12">
@@ -229,8 +218,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div> <!-- working-wrapper -->
-                </div> <!-- working-container -->
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -252,7 +241,7 @@
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
                                 <h3><i class="fas fa-shield-alt" aria-hidden="true"></i> <span class="feature">Vulnerability Detection</span></h3>
-                                <p>Identify known vulnerabilities in third-party and opensource components from multiple sources of vulnerability intelligence</p>
+                                <p>Identify known vulnerabilities in third-party components via integration with the NVD, OSS Index, GitHub, Snyk, OSV, and VulnDB</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
@@ -271,8 +260,8 @@
                     <div class="row feature-row">
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
-                                <h3><i class="fas fa-chart-bar" aria-hidden="true"></i> <span class="feature">Time Series Metrics</span></h3>
-                                <p>Provides trending details of the inherited risk and policy violations for all projects and components in the portfolio</p>
+                                <h3><i class="fas fa-magic" aria-hidden="true"></i> <span class="feature">Exploit Prediction</span></h3>
+                                <p>Prioritize mitigation by leveraging integrated support for the Exploit Prediction Scoring System (EPSS)</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
@@ -292,19 +281,39 @@
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
                                 <h3><i class="fas fa-layer-group" aria-hidden="true"></i> <span class="feature">Full-Stack Inventory</span></h3>
-                                <p>Tracks usage of libraries, frameworks, applications, containers, operating systems, firmware, hardware, and services.</p>
+                                <p>Tracks usage of libraries, frameworks, applications, containers, operating systems, firmware, hardware, and services</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
                                 <h3><i class="fas fa-archive" aria-hidden="true"></i> <span class="feature">Bill of Materials (BOM)</span></h3>
-                                <p>Consumes, analyzes, and produces CycloneDX Software Bill of Materials (SBOM), an open source industry standard.</p>
+                                <p>Consumes, analyzes, and produces CycloneDX Software Bill of Materials (SBOM), an OWASP and industry standard</p>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
                                 <h3><i class="fas fa-fingerprint" aria-hidden="true"></i> <span class="feature">Vulnerability Aggregation</span></h3>
                                 <p>Native integration with multiple application risk platforms providing organizations a consolidated view of prioritized findings</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row feature-row">
+                        <div class="col-sm-4">
+                            <div class="cta-wrapper">
+                                <h3><i class="fas fa-share-alt" aria-hidden="true"></i> <span class="feature">NIST VDR</span></h3>
+                                <p>Produces CycloneDX Vulnerability Disclosure Reports (VDR) that exceed requirements defined in NIST SP 800-161</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="cta-wrapper">
+                                <h3><i class="fas fa-exchange-alt" aria-hidden="true"></i> <span class="feature">CISA VEX</span></h3>
+                                <p>Produces and consumes CycloneDX Vulnerability Exploitability eXchange (VEX) exceeding CISA recommendations</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="cta-wrapper">
+                                <h3><i class="fas fa-bell" aria-hidden="true"></i> <span class="feature">Notifications</span></h3>
+                                <p>Automates notifications to Slack, Microsoft Teams, Mattermost, Cisco WebEx, outbound webhooks, and email</p>
                             </div>
                         </div>
                     </div>
@@ -323,26 +332,20 @@
                         </div>
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
-                                <h3><i class="fas fa-bell" aria-hidden="true"></i> <span class="feature">Notifications</span></h3>
-                                <p>Send notifications to Slack, Microsoft Teams, outbound webhooks, and email, enabling new levels of collaboration and automation</p>
+                                <h3><i class="fas fa-chart-bar" aria-hidden="true"></i> <span class="feature">Time Series Metrics</span></h3>
+                                <p>Provides trending details of the inherited risk and policy violations for all projects and components in the portfolio</p>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="cta-wrapper">
-                                <h3><i class="fas fa-exchange-alt" aria-hidden="true"></i> <span class="feature">VEX</span></h3>
-                                <p>CycloneDX Vulnerability Exploitability Exchange (VEX) communicates security risk to software consumers.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                        </div>
+                    <div class="row feature-row">
+                        <div class="col-sm-4"></div>
                         <div class="col-sm-4">
                             <div class="cta-wrapper">
                                 <h3><i class="fab fa-osi" aria-hidden="true"></i> <span class="feature">Open Source</span></h3>
                                 <p>Community-driven project distributed under the Apache 2.0 license <i class="icon-apache"></i>Large and active community of contributors and adopters.</p>
                             </div>
                         </div>
+                        <div class="col-sm-4"></div>
                     </div>
                 </div>
             </div>
@@ -357,14 +360,16 @@
                     <div class="item"><a href="https://www.riskbasedsecurity.com/"><img src="assets/images/integrations/logo-rbs.svg" alt="image"></a></div>
                     <div class="item"><a href="https://jenkins.io/"><img src="assets/images/integrations/logo-jenkins.svg" alt="image"></a></div>
                     <div class="item"><a href="https://codedx.com/"><img src="assets/images/integrations/logo-codedx.svg" alt="image"></a></div>
-                    <!-- <div class="item"><a href="https://www.jetbrains.com/teamcity/"><img src="assets/images/integrations/logo-teamcity.svg" alt="image"></a></div> -->
                     <div class="item"><a href="https://ossindex.sonatype.org/"><img src="assets/images/integrations/logo-sonatype-ossindex.svg" alt="image"></a></div>
                     <div class="item"><a href="https://slack.com/"><img src="assets/images/integrations/logo-slack.svg" alt="image"></a></div>
                     <div class="item"><a href="https://nvd.nist.gov/"><img src="assets/images/integrations/logo-nvd.svg" alt="image"></a></div>
                     <div class="item"><a href="https://www.npmjs.com/"><img src="assets/images/integrations/logo-npm.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://www.snyk.com/"><img src="assets/images/integrations/logo-snyk.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://www.github.com/"><img src="assets/images/integrations/logo-github.svg" alt="image"></a></div>
+                    <div class="item"><a href="https://www.osv.dev/"><img src="assets/images/integrations/logo-osv.svg" alt="image"></a></div>
                     <div class="item"><a href="https://www.kennasecurity.com/"><img src="assets/images/integrations/logo-kenna.svg" alt="image"></a></div>
                     <div class="item"><a href="https://software.microfocus.com/en-us/solutions/application-security"><img src="assets/images/integrations/logo-fortify.svg" alt="image"></a></div>
-                    <!-- <div class="item"><a href="https://www.atlassian.com/software/jira"><img src="assets/images/integrations/logo-jira.svg" alt="image"></a></div> -->
+                    <div class="item"><a href="https://www.atlassian.com/software/jira"><img src="assets/images/integrations/logo-jira.svg" alt="image"></a></div>
                     <div class="item"><a href="https://microsoft.com/teams"><img src="assets/images/integrations/logo-teams.svg" alt="image"></a></div>
                     <div class="item"><a href="https://www.defectdojo.org/"><img src="assets/images/integrations/logo-defect-dojo.svg" alt="image"></a></div>
                     <div class="item"><a href="https://www.securitycompass.com/"><img src="assets/images/integrations/logo-security-compass.svg" alt="image"></a></div>
@@ -379,8 +384,6 @@
                 <div class="col-md-12">
                     <div class="wrapper-content">
                         <h3>Installation</h3>
-
-
                         <div class="code-example-tab"><input id="inventory-example-tab1" class="inputtab1" type="radio" name="inventory-example-pct" checked="">
                             <input id="inventory-example-tab2" class="inputtab2" type="radio" name="inventory-example-pct">
                             <nav>
@@ -413,10 +416,11 @@
             <div class="social">
                 <div class="title text-center">
                     <a href="https://github.com/DependencyTrack"><i class="fab fa-github social-icon" aria-hidden="true" title="GitHub"></i></a>
-                    <a href="https://twitter.com/dependencytrack"><i class="fab fa-twitter social-icon" aria-hidden="true" title="Twitter"></i></a>
-                    <a href="https://www.youtube.com/c/OWASPDependencyTrack"><i class="fab fa-youtube social-icon" aria-hidden="true" title="YouTube"></i></a>
+                    <a href="https://twitter.com/DependencyTrack"><i class="fab fa-twitter social-icon" aria-hidden="true" title="Twitter"></i></a>
+                    <a href="https://infosec.exchange/@DependencyTrack"><i class="fab fa-mastodon social-icon" aria-hidden="true" title="Mastodon"></i></a>
+                    <a href="https://www.youtube.com/@DependencyTrack"><i class="fab fa-youtube social-icon" aria-hidden="true" title="YouTube"></i></a>
                     <a href="https://groups.io/g/dependency-track"><i class="icon icon--groupsio social-icon" style="font-size:24px" aria-hidden="true" title="Groups.io"></i></a>
-                    <a href="https://owasp.slack.com/messages/proj-dependency-track"><i class="fab fa-slack-hash social-icon" aria-hidden="true" title="Slack"></i></a>
+                    <a href="https://owasp.slack.com/messages/proj-dependency-track"><i class="fab fa-slack social-icon" aria-hidden="true" title="Slack"></i></a>
                     <a href="https://docs.dependencytrack.org"><i class="fas fa-book social-icon" aria-hidden="true" title="Documentation"></i></a>
                 </div>
             </div>
@@ -426,7 +430,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <p class="text-center">&copy; Copyright 2013-2022 Steve Springett</p>
+                        <p class="text-center">&copy; Copyright 2013-2023 The OWASP Foundation</p>
                     </div>
                 </div>
             </div>

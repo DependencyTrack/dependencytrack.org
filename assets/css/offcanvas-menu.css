@@ -8,7 +8,7 @@
     right: 0;
     width: 250px;
     height: 100%;
-    background: #1F2536;
+    background: #060929;
 
     transform: translateX(280px);
     transition: .5s;
@@ -46,7 +46,7 @@
     right: 0;
     text-align: right;
     padding: 10px 10px 10px 0;
-	background-color: #1b232f;
+	background-color: #060929;
     border-radius: 0;
 }
 
@@ -61,7 +61,7 @@
     margin: -20px auto 0;
 	background-image: url(../images/dt-logo-white-text.svg);
 	background-repeat: no-repeat;
-	background-position: 10px 5px;
+	background-position: 10px 2px;
 	background-size: 170px;
 }
 
