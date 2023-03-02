@@ -1,4 +1,4 @@
-/slack/invite https://owasp-slack.herokuapp.com/ 302
+/slack/invite https://owasp.org/slack/invite 302
 /slack https://owasp.slack.com/messages/proj-dependency-track 302
 /discussion https://github.com/DependencyTrack/dependency-track/discussions 302
 /mailing-list https://groups.io/g/dependency-track 302
