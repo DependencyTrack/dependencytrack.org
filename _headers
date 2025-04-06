@@ -1,5 +1,5 @@
 /*
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
-  Content-Security-Policy: script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; frame-ancestors 'none';
+  Content-Security-Policy: script-src 'self' '37fa1b40-a8d5-4665-8658-0ed8a816e0a9' https://www.googletagmanager.com; frame-ancestors 'none';
   Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), bluetooth=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()
